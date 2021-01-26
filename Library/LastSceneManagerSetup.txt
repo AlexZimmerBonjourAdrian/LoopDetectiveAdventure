@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/CharacterTest/TestCharacterInteract.unity
+- path: Assets/Scenes/Interiors/OficinaLoop.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
