@@ -5,13 +5,21 @@ using UnityEngine;
 public class CPlayerData : MonoBehaviour
 {
     // Start is called before the first frame update
-    public int level;
+    public int id;
     public int health;
+    public string namecharacter;
+    public string Description;
+    public string image;
+    //Se puede usar una maquina de animacion, esta es la manera mas limpioa
+    public Animation Anim;
+    //Odirectamente setear los sprite characters, esta es la manera rapida
+    public Sprite[] spriteCharacters;
+    
     public float[] position;
 
     public CPlayerData(CPlayer player)
     {
-        level = player.level;
+        //level = player.level;
         health = player.health;
 
         position = new float[3];

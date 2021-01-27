@@ -64,7 +64,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CAnimationController.cs" />
     <Compile Include="Assets\Scripts\Camera\CCameraManager.cs" />
+    <Compile Include="Assets\Scripts\Characters\CLoop.cs" />
+    <Compile Include="Assets\Scripts\Characters\CMoffin.cs" />
+    <Compile Include="Assets\Scripts\Characters\CStiff.cs" />
     <Compile Include="Assets\Scripts\Design-Patterns\Behavioral Patterns\Examples\CGameEventListener.cs" />
     <Compile Include="Assets\Scripts\Design-Patterns\Behavioral Patterns\Examples\cGameEventListenerCsharp.cs" />
     <Compile Include="Assets\Scripts\Design-Patterns\Behavioral Patterns\Observer Pattern\CObserver.cs" />
@@ -123,6 +127,7 @@
     <Compile Include="Assets\Scripts\Objects\CAsteroid.cs" />
     <Compile Include="Assets\Scripts\Objects\CCharacter.cs" />
     <Compile Include="Assets\Scripts\Objects\CDoor.cs" />
+    <Compile Include="Assets\Scripts\Objects\CGenericCharacter.cs" />
     <Compile Include="Assets\Scripts\Objects\CGenericObject.cs" />
     <Compile Include="Assets\Scripts\Objects\CLoadImage.cs" />
     <Compile Include="Assets\Scripts\Objects\CManagerObject.cs" />
