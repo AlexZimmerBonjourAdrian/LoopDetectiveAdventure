@@ -7,24 +7,29 @@ public class CGenericObject : MonoBehaviour
 
     [SerializeField]
     protected CItemData item;
+    
     [SerializeField]
     protected new string name;
+    
     [SerializeField]
     protected string descripcion;
+    
     [SerializeField]
-    protected Texture2D imageItem;
+    protected Sprite imageItem;
+   
     [SerializeField]
-    protected bool optional;
+    protected bool important;
+    
     [SerializeField]
     protected bool isActive;
 
 
     protected virtual void Start()
     {
-        //name = item.name;
+        name = item.name;
         descripcion = item.description;
         imageItem = item.imageItem;
-        optional = item.Optional;
+        important = item.Important;
         isActive = item.isActive;
     }
     /*
@@ -34,13 +39,17 @@ public class CGenericObject : MonoBehaviour
     }
     */
     //protected abstract ga
+    /*
     protected  void Destroy()
     {
-
+        
     }
+    */
+  /*
     protected void Desactivate()
     {
-
+        gameObject.SetActive(isActive);
     }
+  */
  
 }

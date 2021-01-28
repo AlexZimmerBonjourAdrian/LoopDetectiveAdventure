@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Interiors/Apartamento/Pasillo.unity
+    guid: 14b849463632a8646ba87eb8dd9fcd71
+  - enabled: 1
+    path: Assets/Scenes/Interiors/Apartamento/OficinaLoop.unity
+    guid: 7d6a874a2f606af44a31f97c56b72b5f
+  - enabled: 1
+    path: Assets/Scenes/Interiors/Apartamento/ApartamentoLoop.unity
+    guid: 888153fdaa3156a4abcf08fefcf01b9f
   m_configObjects: {}

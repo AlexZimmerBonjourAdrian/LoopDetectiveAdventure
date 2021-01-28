@@ -20,6 +20,8 @@ public class CGenericCharacter : MonoBehaviour,Iinteract
     {
         Debug.Log("Hola");
         ChangeAnimation();
+        
+
     }
 
     public virtual void ChangeAnimation()

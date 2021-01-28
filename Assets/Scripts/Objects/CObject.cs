@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[ExecuteInEditMode]
 public class CObject : CGenericObject, Iinteract
 {
     [SerializeField]
@@ -9,5 +10,13 @@ public class CObject : CGenericObject, Iinteract
    public void Oninteract()
     {
         Debug.Log(Texto);
+    }
+
+     void Start()
+    {
+        base.Start();
+        SpriteRenderer sprit;
+        sprit = GetComponent<SpriteRenderer>();
+        sprit.sprite = imageItem;
     }
 }

@@ -64,11 +64,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CAnimationController.cs" />
     <Compile Include="Assets\Scripts\Camera\CCameraManager.cs" />
     <Compile Include="Assets\Scripts\Characters\CLoop.cs" />
     <Compile Include="Assets\Scripts\Characters\CMoffin.cs" />
     <Compile Include="Assets\Scripts\Characters\CStiff.cs" />
+    <Compile Include="Assets\Scripts\Controllers\CAnimationController.cs" />
     <Compile Include="Assets\Scripts\Design-Patterns\Behavioral Patterns\Examples\CGameEventListener.cs" />
     <Compile Include="Assets\Scripts\Design-Patterns\Behavioral Patterns\Examples\cGameEventListenerCsharp.cs" />
     <Compile Include="Assets\Scripts\Design-Patterns\Behavioral Patterns\Observer Pattern\CObserver.cs" />
@@ -115,6 +115,9 @@
     <Compile Include="Assets\Scripts\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
     <Compile Include="Assets\Scripts\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\Scripts\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+    <Compile Include="Assets\Scripts\DialogueManager\CDialogue.cs" />
+    <Compile Include="Assets\Scripts\DialogueManager\CDialogueManager.cs" />
+    <Compile Include="Assets\Scripts\DialogueManager\CDialogueTrigger.cs" />
     <Compile Include="Assets\Scripts\Event\CEventChangeColor.cs" />
     <Compile Include="Assets\Scripts\Iterface\Iinteract.cs" />
     <Compile Include="Assets\Scripts\Mechanics\CGameEvent.cs" />

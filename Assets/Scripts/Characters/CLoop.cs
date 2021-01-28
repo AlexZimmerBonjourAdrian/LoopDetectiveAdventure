@@ -9,6 +9,15 @@ public class CLoop : CGenericCharacter
     private new Animation anim;
 
 
+    public new void Start()
+    {
+
+        base.Start();
+
+        CPointToClick.Inst.CreatePoint();
+
+    }
+
     public override void Oninteract()
     {
         base.Oninteract();
@@ -16,6 +25,7 @@ public class CLoop : CGenericCharacter
 
 
     }
+
 
     //Alterar
     public override void ChangeAnimation()

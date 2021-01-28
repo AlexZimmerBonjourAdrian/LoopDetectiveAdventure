@@ -9,7 +9,7 @@ public class CCharacter : CGenericCharacter , Iinteract
     
     // Start is called before the first frame update
    private new string nameCharacter= " ";
-
+    
     // Update is called once per frame
     public override void Oninteract()
     {
