@@ -343,7 +343,7 @@ PrefabInstance:
     - target: {fileID: 2344603392944678740, guid: 2117288d8ea615e47a35d9f0caf765fb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.3346767
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2344603392944678740, guid: 2117288d8ea615e47a35d9f0caf765fb,
         type: 3}
@@ -395,9 +395,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2344603392944678741, guid: 2117288d8ea615e47a35d9f0caf765fb,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ea5531db6e767aa4d81df816d4862436,
+        type: 3}
     - target: {fileID: 2344603392944678743, guid: 2117288d8ea615e47a35d9f0caf765fb,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2344603392944678743, guid: 2117288d8ea615e47a35d9f0caf765fb,
+        type: 3}
+      propertyPath: _ControlAnimation
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -659,6 +670,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 9036905562604746452, guid: cce4301b9622b11439724ff29888b39e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 54f8be7bc7072bd45b66178cb59065b2,
+        type: 3}
     - target: {fileID: 9036905562604746453, guid: cce4301b9622b11439724ff29888b39e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -722,7 +739,12 @@ PrefabInstance:
     - target: {fileID: 9036905562604746454, guid: cce4301b9622b11439724ff29888b39e,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9036905562604746458, guid: cce4301b9622b11439724ff29888b39e,
+        type: 3}
+      propertyPath: _ControlAnimation
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9036905562604746455, guid: cce4301b9622b11439724ff29888b39e, type: 3}

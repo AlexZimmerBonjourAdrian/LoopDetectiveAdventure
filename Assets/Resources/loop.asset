@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: loop
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 167b65ab-df94-4d8e-9722-c801d7421a8f
+    PortName: Next
+    TargetNodeGUID: 3f29d3f6-b357-4ccb-b8e3-22bb8878b1c0
+  - BaseNodeGUID: 3f29d3f6-b357-4ccb-b8e3-22bb8878b1c0
+    PortName: bien?
+    TargetNodeGUID: 4ffec315-9406-4304-951d-33b4eadeaafd
+  - BaseNodeGUID: 3f29d3f6-b357-4ccb-b8e3-22bb8878b1c0
+    PortName: Mal?
+    TargetNodeGUID: b2521d91-2ff4-483d-87e8-a6af434cadac
+  - BaseNodeGUID: 3f29d3f6-b357-4ccb-b8e3-22bb8878b1c0
+    PortName: otro
+    TargetNodeGUID: df418ec1-817b-4b45-abac-8f4bbf88731e
+  - BaseNodeGUID: df418ec1-817b-4b45-abac-8f4bbf88731e
+    PortName: Option 1
+    TargetNodeGUID: fed21e9d-dc65-474e-9f32-7344179ad068
+  - BaseNodeGUID: b2521d91-2ff4-483d-87e8-a6af434cadac
+    PortName: Option 1
+    TargetNodeGUID: 3e81f6d7-368d-4e10-948a-1240fb435462
+  - BaseNodeGUID: 4ffec315-9406-4304-951d-33b4eadeaafd
+    PortName: Option 1
+    TargetNodeGUID: e59f499a-3e39-48bb-8f87-343ad9418fa7
+  DialogueNodeData:
+  - NodeGUID: 4ffec315-9406-4304-951d-33b4eadeaafd
+    nameCharacter: Moffinn
+    DialogueText: Dialogue Node1
+    SpriteCharacter: {fileID: 0}
+    Position: {x: 585, y: 58}
+  - NodeGUID: b2521d91-2ff4-483d-87e8-a6af434cadac
+    nameCharacter: Moffinn
+    DialogueText: Dialogue Node2
+    SpriteCharacter: {fileID: 0}
+    Position: {x: 615, y: 236}
+  - NodeGUID: 3f29d3f6-b357-4ccb-b8e3-22bb8878b1c0
+    nameCharacter: Loop
+    DialogueText: Hola como estas?
+    SpriteCharacter: {fileID: 0}
+    Position: {x: 289, y: 111}
+  - NodeGUID: e59f499a-3e39-48bb-8f87-343ad9418fa7
+    nameCharacter: Loop
+    DialogueText: ok
+    SpriteCharacter: {fileID: 0}
+    Position: {x: 905, y: 64}
+  - NodeGUID: 3e81f6d7-368d-4e10-948a-1240fb435462
+    nameCharacter: Loop
+    DialogueText: bien
+    SpriteCharacter: {fileID: 0}
+    Position: {x: 923, y: 244}
+  - NodeGUID: fed21e9d-dc65-474e-9f32-7344179ad068
+    nameCharacter: Loop
+    DialogueText: no se
+    SpriteCharacter: {fileID: 0}
+    Position: {x: 901, y: 413}
+  - NodeGUID: df418ec1-817b-4b45-abac-8f4bbf88731e
+    nameCharacter: Moffinn
+    DialogueText: Dialogue Node3
+    SpriteCharacter: {fileID: 0}
+    Position: {x: 598, y: 394}
+  ExposedProperties: []
+  CommentBlockData: []
