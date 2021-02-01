@@ -2,18 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[ExecuteInEditMode]
+//[ExecuteInEditMode]
 public class CObject : CGenericObject, Iinteract
 {
     [SerializeField]
-    private string Texto= " ";
-   public void Oninteract()
+    private string Texto= " Hola como estan?";
+    private CDialogueTrigger trigger;
+    public void Oninteract()
     {
-        Debug.Log(Texto);
-    }
+        //Debug.Log(Texto);
+        trigger.TriggerDialogue();
 
+    }
+    void Awake()
+    {
+       
+    }
      void Start()
     {
+
+        trigger = GetComponent<CDialogueTrigger>();
         base.Start();
         SpriteRenderer sprit;
         sprit = GetComponent<SpriteRenderer>();

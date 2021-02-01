@@ -1,11 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [System.Serializable]
 public class CDialogueManager : MonoBehaviour
 {
+    public Text nameText;
+    public Text dialogueText;
     public Queue<string> sentences;
+
+    public Animator animator;
+
+    //public CDialogueManager _inst;
+
+    
 
    public void Start()
     {
@@ -14,9 +23,13 @@ public class CDialogueManager : MonoBehaviour
     }
     public void StartDialogue(CDialogue dialogue)
     {
-        Debug.Log("Starting Conversation with " + dialogue.name);
+
+        animator.SetBool("IsOpen", true);
+
+        nameText.text = dialogue.name;
+
         sentences.Clear();
-        
+
         foreach(string sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
@@ -31,12 +44,12 @@ public class CDialogueManager : MonoBehaviour
             return;
         }
         string sentence = sentences.Dequeue();
-        Debug.Log(sentence);
+        dialogueText.text = sentence;
     }
 
     void EndDialogue()
     {
-        Debug.Log("End of conversation.");
+        animator.SetBool("IsOpen", false);
     }
 
 }
