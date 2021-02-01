@@ -150,15 +150,15 @@ RectTransform:
   m_GameObject: {fileID: 277553608}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.63169366, y: 1.5279061, z: 1.5279061}
+  m_LocalScale: {x: 0.4352065, y: 1.6233696, z: 1.014606}
   m_Children: []
   m_Father: {fileID: 1798042375}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 12.299988, y: 45.399994}
-  m_SizeDelta: {x: 1581.7451, y: 340.01553}
+  m_AnchoredPosition: {x: 12.299988, y: 74.707}
+  m_SizeDelta: {x: 2118.377, y: 393.13364}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &277553610
 MonoBehaviour:
@@ -180,7 +180,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -389,15 +389,12 @@ PrefabInstance:
     - target: {fileID: 2683241359916240338, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
       propertyPath: name
-      value: MapaInvestigativo
+      value: Libros
       objectReference: {fileID: 0}
     - target: {fileID: 2683241359916240338, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
       propertyPath: descripcion
-      value: El trabajo de una detective no es facil, y el hecho de ser alienigena
-        y de una especie que es conocida por su promiscuidad es dificil de que te
-        tomen enserio los chicos malos, asi que tengo que aparentar rudeza, .. no
-        importa hay que seguir adelante, trabajando dia a dia para hacer la diferencia
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2683241359916240338, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
@@ -413,7 +410,7 @@ PrefabInstance:
     - target: {fileID: 2683241359916240338, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
       propertyPath: important
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2683241359916240340, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
@@ -486,6 +483,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Objects (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2683241359916240343, guid: 2006693ee8e758c4a93612b23b382cf1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1933869049801068764, guid: 2006693ee8e758c4a93612b23b382cf1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2006693ee8e758c4a93612b23b382cf1, type: 3}
@@ -521,6 +523,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 14.75, y: 14.75}
   m_EdgeRadius: 0
+--- !u!114 &523623090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523623088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b5e9efc2cf23eb42b0b374ad9c28a39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - 'Son mis libros, adoro las novelas distopicas,  son increibles y honestamente
+      siempre me permiten plantearme en los zapatos de un ciudadano en ese infierno
+      sin salida, '
+    - nunca leo el final y me imagino que todo sale bien pudiendo escapar o salvarse
+      de alguna manera
 --- !u!1 &528767103
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,6 +641,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 8.76, y: 17.17}
   m_EdgeRadius: 0
+--- !u!114 &595146275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595146273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b5e9efc2cf23eb42b0b374ad9c28a39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - 'Esta cama esta muy sucia, uf.. que flojera, '
+    - la arreglare mas tarde cuando me vaya a dormir
 --- !u!1001 &615073454
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -635,14 +674,12 @@ PrefabInstance:
     - target: {fileID: 2683241359916240338, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
       propertyPath: name
-      value: AireAcondicionado
+      value: ComidaPasada
       objectReference: {fileID: 0}
     - target: {fileID: 2683241359916240338, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
       propertyPath: descripcion
-      value: "Mi Aire acondicionado, desde que alquilo el lugar este no funciona,
-        tendre que llamar un tecnico estas ultimas noches hace demasiado calor y
-        eso que estamos en oto\xF1o"
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2683241359916240338, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
@@ -726,6 +763,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Objects (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2683241359916240343, guid: 2006693ee8e758c4a93612b23b382cf1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1933869049801068764, guid: 2006693ee8e758c4a93612b23b382cf1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2006693ee8e758c4a93612b23b382cf1, type: 3}
@@ -761,6 +803,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 14.75, y: 14.75}
   m_EdgeRadius: 0
+--- !u!114 &615073457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615073455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b5e9efc2cf23eb42b0b374ad9c28a39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - Eeeeew! es asqueroso!!
+    - creo que vi moverse algo por hay
+    - "espero que no sean cucarachas el due\xF1o me matara..."
+    - limpiare cuanto antes, pero ahora tengo que terminar esto.
 --- !u!1 &688203382
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,6 +1246,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 2683241359916240343, guid: 2006693ee8e758c4a93612b23b382cf1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1933869049801068764, guid: 2006693ee8e758c4a93612b23b382cf1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2006693ee8e758c4a93612b23b382cf1, type: 3}
@@ -1362,13 +1428,12 @@ PrefabInstance:
     - target: {fileID: 2683241359916240338, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
       propertyPath: name
-      value: Computadora
+      value: MapaInvestigativo
       objectReference: {fileID: 0}
     - target: {fileID: 2683241359916240338, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
       propertyPath: descripcion
-      value: Es mi computadora, aww..esto...la apagare no quiero que nadie vea mi......solo
-        la apagare
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2683241359916240338, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
@@ -1384,7 +1449,7 @@ PrefabInstance:
     - target: {fileID: 2683241359916240338, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
       propertyPath: important
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2683241359916240340, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
@@ -1457,6 +1522,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Objects (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2683241359916240343, guid: 2006693ee8e758c4a93612b23b382cf1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1933869049801068764, guid: 2006693ee8e758c4a93612b23b382cf1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2006693ee8e758c4a93612b23b382cf1, type: 3}
@@ -1492,6 +1562,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 14.75, y: 14.75}
   m_EdgeRadius: 0
+--- !u!114 &1232159101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232159099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b5e9efc2cf23eb42b0b374ad9c28a39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - 'El trabajo de una detective no es facil, , '
+    - ',  el hecho de ser alienigena y de una especie que es conocida por su promiscuidad
+      es dificil de que te tomen enserio los chicos malos'
+    - asi que tengo que aparentar rudeza
+    - .. no importa hay que seguir adelante, trabajando dia a dia para hacer la diferencia
 --- !u!1 &1332127893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1875,14 +1965,12 @@ PrefabInstance:
     - target: {fileID: 2683241359916240338, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
       propertyPath: name
-      value: ComidaPasada
+      value: Computadora
       objectReference: {fileID: 0}
     - target: {fileID: 2683241359916240338, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
       propertyPath: descripcion
-      value: "Eeeeew! es asqueroso, creo que vi moverse algo por hay, espero que
-        no sean cucarachas el due\xF1o me matara...limpiare cuanto antes, pero ahora
-        tengo que terminar esto."
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2683241359916240338, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
@@ -1966,6 +2054,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Objects (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2683241359916240343, guid: 2006693ee8e758c4a93612b23b382cf1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1933869049801068764, guid: 2006693ee8e758c4a93612b23b382cf1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2006693ee8e758c4a93612b23b382cf1, type: 3}
@@ -2001,6 +2094,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 14.75, y: 14.75}
   m_EdgeRadius: 0
+--- !u!114 &1718852808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718852806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b5e9efc2cf23eb42b0b374ad9c28a39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - Es mi computadora
+    - aww..esto...la apagare no quiero que nadie vea mi......solo la apagare
 --- !u!1 &1733199554
 GameObject:
   m_ObjectHideFlags: 0
@@ -2153,7 +2263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.63569504, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -2343,8 +2453,9 @@ MonoBehaviour:
   dialogue:
     name: Hola
     sentences:
-    - Soy un aire Acondicionado
-    - Prende por favor hace calor
+    - 'Mi Aire acondicionado, desde que alquilo el lugar este no funciona, '
+    - "tendre que llamar un tecnico estas ultimas noches hace demasiado calor y eso
+      que estamos en oto\xF1o"
 --- !u!1 &1949021228
 GameObject:
   m_ObjectHideFlags: 0
@@ -2614,12 +2725,12 @@ PrefabInstance:
     - target: {fileID: 2683241359916240341, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.65
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 2683241359916240341, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.94
+      value: -0.96
       objectReference: {fileID: 0}
     - target: {fileID: 2683241359916240341, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
@@ -2666,10 +2777,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2683241359916240341, guid: 2006693ee8e758c4a93612b23b382cf1,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.28072843
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683241359916240341, guid: 2006693ee8e758c4a93612b23b382cf1,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.08271843
+      objectReference: {fileID: 0}
     - target: {fileID: 2683241359916240343, guid: 2006693ee8e758c4a93612b23b382cf1,
         type: 3}
       propertyPath: m_Name
       value: Objects
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683241359916240343, guid: 2006693ee8e758c4a93612b23b382cf1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1933869049801068764, guid: 2006693ee8e758c4a93612b23b382cf1, type: 3}
