@@ -142,7 +142,9 @@
     <Compile Include="Assets\Scripts\Ui\CUiAnimation.cs" />
     <Compile Include="Assets\Scripts\scriptableObject\CAnimData.cs" />
     <Compile Include="Assets\Scripts\scriptableObject\CItemData.cs" />
+    <Compile Include="Assets\Scripts\scriptableObject\SaveAndLoadSystem\CCharacterDatat.cs" />
     <Compile Include="Assets\Scripts\scriptableObject\SaveAndLoadSystem\CPlayerData.cs" />
+    <Compile Include="Assets\Scripts\scriptableObject\SaveAndLoadSystem\CPlayerDefault.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
