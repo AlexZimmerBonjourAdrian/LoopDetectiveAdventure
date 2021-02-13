@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[ExecuteInEditMode]
+
 public class CAnimationController : MonoBehaviour
 {
     private SpriteRenderer _SpriteRendere;

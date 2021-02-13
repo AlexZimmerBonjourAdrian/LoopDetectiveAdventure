@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Interiors/Apartamento/ApartamentoLoop.unity
+- path: Assets/Scenes/PlayHolder/LevelsDesign/LevelSaveData.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

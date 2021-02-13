@@ -119,6 +119,9 @@
     <Compile Include="Assets\Scripts\DialogueManager\CDialogueManager.cs" />
     <Compile Include="Assets\Scripts\DialogueManager\CDialogueTrigger.cs" />
     <Compile Include="Assets\Scripts\Event\CEventChangeColor.cs" />
+    <Compile Include="Assets\Scripts\EventSystem\CCharacterController.cs" />
+    <Compile Include="Assets\Scripts\EventSystem\CGameEventListener.cs" />
+    <Compile Include="Assets\Scripts\EventSystem\CGameEventScriptable.cs" />
     <Compile Include="Assets\Scripts\Iterface\Iinteract.cs" />
     <Compile Include="Assets\Scripts\Mechanics\CGameEvent.cs" />
     <Compile Include="Assets\Scripts\Mechanics\CLevelManager.cs" />

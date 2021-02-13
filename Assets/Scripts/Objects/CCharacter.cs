@@ -4,28 +4,53 @@ using UnityEngine;
 using Subtegral.DialogueSystem.DataContainers;
 
 //[SerializeField]
-public class CCharacter : CGenericCharacter , Iinteract
+public class CCharacter : ScriptableObject
 {
     
     // Start is called before the first frame update
+    /*
    [SerializeField]
     private new string nameCharacter= " ";
-    [SerializeField]
+    */
+    
     private DialogueContainer dialogueContainer;
-    [SerializeField]
-    private CPlayerData playerData;
+  
+    //private CPlayerData playerData;
+    private  int DialogSprite;
 
+   public void init()
+    {
+        
+        DialogSprite = 0;
+
+    }
+
+    public DialogueContainer ChangeDialog(DialogueContainer Dialogue)
+    {
+        dialogueContainer = Dialogue;
+
+        return dialogueContainer;
+    }
+
+    public int ChangeDialogSprite(int _DialogSprite)
+    {
+        DialogSprite = _DialogSprite;
+        return DialogSprite;
+        
+    }
 
     // Update is called once per frame
-    public override void Oninteract()
+    
+    /*public override void Oninteract()
     {
         base.Oninteract();
     }
-
+    */
+    /*
     public override void ChangeAnimation()
     {
         base.ChangeAnimation();
     }
 
-
+    */
 }
