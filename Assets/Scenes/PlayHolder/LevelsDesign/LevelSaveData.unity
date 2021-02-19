@@ -672,6 +672,7 @@ GameObject:
   - component: {fileID: 1851857483}
   - component: {fileID: 1851857482}
   - component: {fileID: 1851857481}
+  - component: {fileID: 1851857485}
   m_Layer: 0
   m_Name: tunderaund-Loop3
   m_TagString: Untagged
@@ -705,9 +706,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4590287877a373d41bf54623d0e99f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameCharacter: ' '
   dialogueContainer: {fileID: 0}
-  playerData: {fileID: 0}
+  DialogSprite: 0
 --- !u!212 &1851857483
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -772,3 +772,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1851857485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851857480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582da763d7ddaed4093fd6e4dda2a669, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnClickCharacter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnExecuteDialogue:
+    m_PersistentCalls:
+      m_Calls: []

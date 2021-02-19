@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Subtegral.DialogueSystem.DataContainers;
 
-//[SerializeField]
+[CreateAssetMenu]
 public class CCharacter : ScriptableObject
 {
     

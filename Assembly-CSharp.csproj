@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Characters\CMoffin.cs" />
     <Compile Include="Assets\Scripts\Characters\CStiff.cs" />
     <Compile Include="Assets\Scripts\Controllers\CAnimationController.cs" />
+    <Compile Include="Assets\Scripts\Controllers\CCharacterTestScript.cs" />
     <Compile Include="Assets\Scripts\Design-Patterns\Behavioral Patterns\Examples\CGameEventListener.cs" />
     <Compile Include="Assets\Scripts\Design-Patterns\Behavioral Patterns\Examples\cGameEventListenerCsharp.cs" />
     <Compile Include="Assets\Scripts\Design-Patterns\Behavioral Patterns\Observer Pattern\CObserver.cs" />
