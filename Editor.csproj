@@ -60,16 +60,16 @@
     <Analyzer Include="E:\UnityInstalled\2022.3.16f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Editor\Graph\StoryGraphView.cs" />
-    <Compile Include="Assets\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Editor\GraphSaveUtility.cs" />
-    <Compile Include="Assets\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Editor\Graph\StoryGraph.cs" />
-    <Compile Include="Assets\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Editor\Nodes\DialogueNode.cs" />
-    <Compile Include="Assets\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Editor\Graph\NodeSearchWindow.cs" />
+    <Compile Include="Assets\LDA-OriginProyect\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Editor\GraphSaveUtility.cs" />
+    <Compile Include="Assets\LDA-OriginProyect\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Editor\Nodes\DialogueNode.cs" />
+    <Compile Include="Assets\LDA-OriginProyect\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Editor\Graph\StoryGraph.cs" />
+    <Compile Include="Assets\LDA-OriginProyect\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Editor\Graph\StoryGraphView.cs" />
+    <Compile Include="Assets\LDA-OriginProyect\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Editor\Graph\NodeSearchWindow.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Editor\Resources\NarrativeGraph.uss" />
-    <None Include="Assets\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Editor\Resources\Node.uss" />
-    <None Include="Assets\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Editor\Subtegral.DialogueSystem.Editor.asmdef" />
+    <None Include="Assets\LDA-OriginProyect\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Editor\Resources\NarrativeGraph.uss" />
+    <None Include="Assets\LDA-OriginProyect\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Editor\Resources\Node.uss" />
+    <None Include="Assets\LDA-OriginProyect\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Editor\Subtegral.DialogueSystem.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

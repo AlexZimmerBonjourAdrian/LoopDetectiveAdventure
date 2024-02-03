@@ -60,14 +60,14 @@
     <Analyzer Include="E:\UnityInstalled\2022.3.16f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Runtime\NodeLinkData.cs" />
-    <Compile Include="Assets\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Runtime\DialogueContainer.cs" />
-    <Compile Include="Assets\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Runtime\ExposedProperty.cs" />
-    <Compile Include="Assets\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Runtime\CommentBlockData.cs" />
-    <Compile Include="Assets\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Runtime\DialogueNodeData.cs" />
+    <Compile Include="Assets\LDA-OriginProyect\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Runtime\DialogueNodeData.cs" />
+    <Compile Include="Assets\LDA-OriginProyect\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Runtime\NodeLinkData.cs" />
+    <Compile Include="Assets\LDA-OriginProyect\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Runtime\DialogueContainer.cs" />
+    <Compile Include="Assets\LDA-OriginProyect\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Runtime\ExposedProperty.cs" />
+    <Compile Include="Assets\LDA-OriginProyect\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Runtime\CommentBlockData.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Runtime\Subtegral.DialogueSystem.Runtime.asmdef" />
+    <None Include="Assets\LDA-OriginProyect\Scripts\NodeBasedDialogueSystem-master\com.subtegral.dialoguesystem\Runtime\Subtegral.DialogueSystem.Runtime.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

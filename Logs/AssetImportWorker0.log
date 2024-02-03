@@ -15,7 +15,7 @@ E:/Github_E/LoopDetectiveAdventure
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62721
+63955
 Successfully changed project path to: E:/Github_E/LoopDetectiveAdventure
 E:/Github_E/LoopDetectiveAdventure
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/Github_E/LoopDetectiveAdventure
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9236] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 1729642362 [EditorId] 1729642362 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O8GDVT2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11088] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 1856430767 [EditorId] 1856430767 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O8GDVT2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9236] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 1729642362 [EditorId] 1729642362 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O8GDVT2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11088] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 1856430767 [EditorId] 1856430767 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O8GDVT2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 23.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
 [Subsystems] Discovering subsystems at path E:/UnityInstalled/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'E:/UnityInstalled/2022.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'E:/UnityInstalled/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/UnityInstalled/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UnityInstalled/2022.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/UnityInstalled/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005938 seconds.
-- Loaded All Assemblies, in  1.020 seconds
+Registered in 0.008500 seconds.
+- Loaded All Assemblies, in  1.244 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.633 seconds
-Domain Reload Profiling: 1653ms
-	BeginReloadAssembly (338ms)
+- Finished resetting the current domain, in  0.994 seconds
+Domain Reload Profiling: 2239ms
+	BeginReloadAssembly (444ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (65ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (532ms)
-		LoadAssemblies (338ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (208ms)
+	RebuildNativeTypeToScriptingClass (57ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (432ms)
+		LoadAssemblies (439ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (526ms)
-			TypeCache.Refresh (523ms)
-				TypeCache.ScanAssembly (476ms)
+		AnalyzeDomain (428ms)
+			TypeCache.Refresh (424ms)
+				TypeCache.ScanAssembly (393ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (634ms)
+	FinalizeReload (995ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (513ms)
+		SetupLoadedEditorAssemblies (720ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (384ms)
-			ProcessInitializeOnLoadMethodAttributes (102ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (439ms)
+			ProcessInitializeOnLoadMethodAttributes (251ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 1653ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.457 seconds
-Refreshing native plugins compatible for Editor in 4.32 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.516 seconds
+Refreshing native plugins compatible for Editor in 6.63 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.072 seconds
-Domain Reload Profiling: 3530ms
-	BeginReloadAssembly (315ms)
+- Finished resetting the current domain, in  2.233 seconds
+Domain Reload Profiling: 3751ms
+	BeginReloadAssembly (348ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (21ms)
+		DisableScriptedObjects (19ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (69ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (995ms)
-		LoadAssemblies (767ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (143ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (950ms)
+		LoadAssemblies (652ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (410ms)
-			TypeCache.Refresh (356ms)
-				TypeCache.ScanAssembly (318ms)
-			ScanForSourceGeneratedMonoScriptInfo (44ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (2074ms)
+		AnalyzeDomain (496ms)
+			TypeCache.Refresh (313ms)
+				TypeCache.ScanAssembly (251ms)
+			ScanForSourceGeneratedMonoScriptInfo (152ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (2234ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1561ms)
+		SetupLoadedEditorAssemblies (1814ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (890ms)
-			ProcessInitializeOnLoadMethodAttributes (571ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (1039ms)
+			ProcessInitializeOnLoadMethodAttributes (643ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.27 seconds
-Refreshing native plugins compatible for Editor in 3.58 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 63 unused Assets / (125.3 KB). Loaded Objects now: 3719.
-Memory consumption went from 190.7 MB to 190.6 MB.
-Total: 5.451000 ms (FindLiveObjects: 0.357100 ms CreateObjectMapping: 0.381900 ms MarkObjects: 4.419900 ms  DeleteObjects: 0.290700 ms)
+Unloading 63 unused Assets / (125.5 KB). Loaded Objects now: 3719.
+Memory consumption went from 190.5 MB to 190.4 MB.
+Total: 5.027200 ms (FindLiveObjects: 0.365800 ms CreateObjectMapping: 0.361400 ms MarkObjects: 4.106300 ms  DeleteObjects: 0.192700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -182,56 +182,277 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 55413.160616 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(322fe55a3e00d624b8ef6761d16fdbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(322fe55a3e00d624b8ef6761d16fdbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7949702aa0d8e4029bcd60256da5b5ed') in 0.002977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 36.021088 seconds.
+  path: Assets/LDA-OriginProyect
+  artifactKey: Guid(322fe55a3e00d624b8ef6761d16fdbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LDA-OriginProyect using Guid(322fe55a3e00d624b8ef6761d16fdbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98f2e2a8bbcd9b009a7152a6896ec34') in 0.000590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.632653 seconds.
+  path: Assets/Material
+  artifactKey: Guid(5776ebb820fabad47aad47fcd525bcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material using Guid(5776ebb820fabad47aad47fcd525bcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39e87fd25dc3e42104ecc4bb6400f53') in 0.000484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.191864 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(9f43cf1d730a28b4e8657326f42b83e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(9f43cf1d730a28b4e8657326f42b83e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96c5bb2262d364a8a3868e3cb54ed88') in 0.000707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.842216 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(8007be5477257e04f8dcd5ed2b492188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab using Guid(8007be5477257e04f8dcd5ed2b492188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a878eb42129954b985f20cd0ca50da') in 0.000532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
+Refreshing native plugins compatible for Editor in 4.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (67.8 KB). Loaded Objects now: 3719.
+Memory consumption went from 117.3 MB to 117.3 MB.
+Total: 5.430000 ms (FindLiveObjects: 0.340100 ms CreateObjectMapping: 0.341700 ms MarkObjects: 4.671100 ms  DeleteObjects: 0.076200 ms)
+
+Prepare: number of updated asset objects reloaded= 9
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CPointToClick.cs: a46bf577d0214109ff6be62250a15d11 -> 3f955ae1c426b2fe87b58026d9e298ca
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/TMP_PhoneNumberValidator.cs: b4c1c54136dffeb4e2962027ebaa6b1f -> 7c3049f481e464c6a9a15dee56c3126f
+  custom:scripting/monoscript/fileName/DepthOfFieldDeprecated.cs: f4565291edfbc672de29f1c5b95b481b -> 8700a90d2d763e9c01f08a0cd128cca8
+  custom:scripting/monoscript/fileName/CameraMotionBlur.cs: 7c530588a2d887b86502472bdab63598 -> 458c2b6f90eeea041921d89083a79e55
+  custom:scripting/monoscript/fileName/ColorCorrectionLookupEditor.cs: af1f04f02e48544f2a43562f596154c1 -> a2fb9e7138550e9aa0e0de2d21737d42
+  custom:scripting/monoscript/fileName/NodeSearchWindow.cs: c236210c31c69eea4f26c649f7b35215 -> 6908531b247f2d5d4f6f3905a5b0a30f
+  custom:scripting/monoscript/fileName/PostEffectsHelper.cs: cc5da605024356baadb078f41f5a7e49 -> 5b0aade5ee85030099a328bfa56e17eb
+  custom:scripting/monoscript/fileName/CLevelManager.cs: 0e45c1a0802dded4dfe8d5a59a2c0b5b -> f35d15df3eecce4bf437ddc1a0266777
+  custom:scripting/monoscript/fileName/TiltShift.cs: 196245306832ed3031f66fb7a8963b10 -> 13ff1d7342528fc14a2e194c2bdc09fb
+  custom:scripting/monoscript/fileName/SkewTextExample.cs: f96859e31fd6dde308d9dc2a2488dcff -> c142d02d70a129e0533975f7c2f96956
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/CGenericCharacter.cs: e33dd7995cc388527cc6a20eb8070d98 -> 9effb71705fdb97dfa9803aec424fc7d
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CreaseShading.cs: d716fee01b79f796edf03879b18e7f31 -> 5b17bf81bff982a9605309492401c574
+  custom:scripting/monoscript/fileName/EnvMapAnimator.cs: 08e040d459cd881082c0dd5daba5f85c -> 1b4f61c17e4b7283c3ac351aacff9d26
+  custom:scripting/monoscript/fileName/CCharacterController.cs: 286cbc2c15e172a170e66f4d8720dfc7 -> 108d7e4f8a441abc2d78b7af50e3941a
+  custom:scripting/monoscript/fileName/ShaderPropAnimator.cs: 88b70bc5bbc15375387323f48f0661cf -> 55ce425812446482e623ff2695c94cb2
+  custom:scripting/monoscript/fileName/CCharacter.cs: d37362a2e8e7f80300e0af083d7b851d -> 3e2aa034ededb3ba9fccb96034458d14
+  custom:scripting/monoscript/fileName/TMP_TextEventHandler.cs: d0f86a17d6fd3e9995db934eaaf34f18 -> f5cd9d5a43bfefc8f4fec80e6de896a4
+  custom:scripting/monoscript/fileName/AntialiasingEditor.cs: de8ad69c8a9834d8c6998557b65fa1d8 -> cd1db322c4d4bac3e0fdd7740cc772c6
+  custom:scripting/monoscript/fileName/Dialogue.cs: b5ad3add116bea4c730c01bf6888cc42 -> c1f6e707b10a0c8d8ad1557f1dbdeda0
+  custom:scripting/monoscript/fileName/CAnimData.cs: 5dee1b6e155ddc7d5f391f21e1b66f24 -> 1ad17783827ca7e939b72244ab852e26
+  custom:scripting/monoscript/fileName/Antialiasing.cs: d9673f9e7c98f048331ee1d62f8563ea -> bec6c7367bf7f3b527b25907b25d4102
+  custom:scripting/monoscript/fileName/TextMeshProFloatingText.cs: 5a37842f75734e7729f89af9a8145a1a -> 92608fa4a6315cd0786d82205e77b697
+  custom:scripting/monoscript/fileName/CObserverCsharpDelegates.cs: b5768de700b08fd514a5e6c7e5c0476a -> f148b6c891fa1bd3f65119af07c4f52e
+  custom:scripting/monoscript/fileName/ScreenSpaceAmbientOcclusion.cs: 201542b2d7549a292680bd7c26577baa -> 42eb6963a5f738a978938eb937f58d78
+  custom:scripting/monoscript/fileName/CObjectColor.cs: c4c0f7663695b1407464484789de325b -> 55be1eff5a40bfe8c4627508a8710a7f
+  custom:scripting/monoscript/fileName/CCharacterDatat.cs: a98c8f14724346948fae955e93dd6ed7 -> 291d23c5776b16f9fbe388435b587fe1
+  custom:scripting/monoscript/fileName/DepthOfFieldEditor.cs: e6995b58a02e37710a61add3574bfed5 -> a3868cd4e6c6aec7c31ee3ed2b09abe8
+  custom:scripting/monoscript/fileName/VertexZoom.cs: 2da4737d79388c0362c64482e9ee50d2 -> 650ab1e81d40126e3edcf737cce646e4
+  custom:scripting/monoscript/fileName/cGameEventListenerCsharp.cs: 7610c234aabccc3968683b9666a1eb31 -> 56276c861055ac48d5c9114707cbc04c
+  custom:scripting/monoscript/fileName/CDialogueLoopDialogue.cs: a06f10815dad2f21ff5cc9e64db99563 -> e0016dddddfa5dc2a96d500ca7d982cf
+  custom:scripting/monoscript/fileName/SepiaTone.cs: ccd7c17b7939a5121d0321eb28f33f50 -> 67c7b044a145b042dba91a1a8d54f9f4
+  custom:scripting/monoscript/fileName/ImageEffectBase.cs: 403208d1630a1cd3021bb0b7b3ab4003 -> 6d460e3d17a4175e44411c6923e62aed
+  custom:scripting/monoscript/fileName/NoiseAndGrainEditor.cs: 7082dc875bca5e7e5e987f694c9c27fa -> 0276e69b6de7374aa913d893485a004e
+  custom:scripting/monoscript/fileName/SimpleScript.cs: dcd92cf7399b0d08e25e4a66ab57e91e -> 454caab0c6c050f29b39d82e1d66d0fa
+  custom:scripting/monoscript/fileName/DialogueManager.cs: e31a1628c50f77a0cc2f2d3c9dbc831b -> 2dcb33d5ca63a35e90533ce3223d831c
+  custom:scripting/monoscript/fileName/NoiseAndGrain.cs: 1e10fb5df4cebf1931cb6bf7e374bf2c -> f4f7112c95c7474ffaf494b422803169
+  custom:scripting/monoscript/fileName/StoryGraph.cs: f7c6579b8578c017c1f961947069c9a3 -> 4e052c0d8f6428f7e5aa5b279bc400ed
+  custom:scripting/monoscript/fileName/ObjectSpin.cs: b34dd4d17018731600f920d50ca840f7 -> 2b96bb2079dd7fa5108d981627a28e1e
+  custom:scripting/monoscript/fileName/CLoadImage.cs: 92ba70f321821a515a161c0709a3935d -> e3f568d8607f40244e12319bbcea3c73
+  custom:scripting/monoscript/fileName/BloomAndFlaresEditor.cs: 8144c22ad12b8e956dc93e74226d56eb -> 1f9e796d927ffcd86ccbfad6ec7007d5
+  custom:scripting/monoscript/fileName/VertexShakeA.cs: 16900906a98712c9660b9823af1f2500 -> 63ec564c588058369499638dd899e05b
+  custom:scripting/monoscript/fileName/ScreenSpaceAmbientObscurance.cs: 9aae2485c279ddc06b7c8f4893251fad -> 958d0bf4e6842d24e3147fb5da01010e
+  custom:scripting/monoscript/fileName/CSaveSystem.cs: 8cd69caeeedcf75facb9df8f51f464a7 -> fb387b0fedd800b021e6388b711398aa
+  custom:scripting/monoscript/fileName/CAsteroid.cs: db33496f180431fe6e1073fa65638273 -> 2b9cb27c26775aabce92e7999a83bf68
+  custom:scripting/monoscript/fileName/TMP_ExampleScript_01.cs: 59997facf165601d8c6263ace2a973a5 -> a9d4be556104ff54e7d240529b3e01dc
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/SunShafts.cs: 31257fc068328e8e0dff64f822e0c6f9 -> abee30526487200fa16387df850e7daf
+  custom:scripting/monoscript/fileName/CGameEvent.cs: c425ee2542469a85fac440391bdfcae8 -> 721fb5def6566a70f146cf028dcad2f5
+  custom:scripting/monoscript/fileName/CreaseShadingEditor.cs: fb3e5188db4d5919d5337b99be3f004e -> 10fe90e5375fc621d9f19b702723dc86
+  custom:scripting/monoscript/fileName/TMP_TextEventCheck.cs: 7ee93fce990cec7a5b67b504d0259dce -> 13505d917eab5868c435e0c2986dadfa
+  custom:scripting/monoscript/fileName/CameraController.cs: 8d43c2def3a67efed518259a2232b470 -> 34b6be4e23ce86dc89786916c5983296
+  custom:scripting/monoscript/fileName/CGameEventScriptable.cs: f420240a32f15185b2904fcdf892431b -> 9d2fa4311767a32afb84e62b8f20aace
+  custom:scripting/monoscript/fileName/TMP_TextSelector_B.cs: c0db108de9ffc9b6f619f3d00162b1c2 -> ba2be21a7486d37b1011342977a2e49d
+  custom:scripting/monoscript/fileName/DialogueNodeData.cs: 26035abacd52a86b55f2b2f29e6d70e4 -> 310327fb710c8dc52d2ee38a74127dd5
+  custom:scripting/monoscript/fileName/MotionBlur.cs: ccc02c332a40af1041d5d961c1f79dc0 -> 7d52f2ac2c90424481a38c8ec7edb91c
+  custom:scripting/monoscript/fileName/Benchmark01.cs: 1fef48c763f4be76a973f061699dd041 -> 2d3e2cd961730ab95f139a49a673bace
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/TMP_TextInfoDebugTool.cs: 7aad42023b6f5112c90650ae13bd6dd8 -> 3f1709cfb2cc628169113a35b5e9be3f
+  custom:scripting/monoscript/fileName/Fisheye.cs: c798664a98e759e6ff551328f776dfc8 -> ad168996bfc8fa7824e22ed9b5548fe9
+  custom:scripting/monoscript/fileName/CGenericObject.cs: c781b1e71629671ee5b32eb6aa7df2b0 -> 8216745a19709ef3351f5aac96052cee
+  custom:scripting/monoscript/fileName/Grayscale.cs: 64d9a03a5f5ecd04f796a95bf776d1eb -> 87671e23fd2948061f63e16eb704f3a3
+  custom:scripting/monoscript/fileName/Twirl.cs: 7ecb0799479f38b66e389243ca6bbfd2 -> 13260c2451d9e72af8c2f232859ba959
+  custom:scripting/monoscript/fileName/Iinteract.cs: 3008405b17798cb9fb06457409d959eb -> 26ea102d5cb3dd6904168ad6421571fc
+  custom:scripting/monoscript/fileName/CManagerObject.cs: a7c26f3edeb7559138294342ed8381a1 -> f99d34e0849414d10b8007419f1962d9
+  custom:scripting/monoscript/fileName/NodeLinkData.cs: 28e7422f3b09c214d79d7c903a9e5393 -> 32202b6eb830b8da1527abe008bdd604
+  custom:scripting/monoscript/fileName/CObserver.cs: d914ee1b6c0105b6b99a020dbde43e98 -> 5ae8431836fecee145529acacf97712d
+  custom:scripting/monoscript/fileName/DialogueExampler.cs: 757e30d4519e4b7fb43ecdff3ca53ff9 -> d1efb984f19b181934032fbfe54c525c
+  custom:scripting/monoscript/fileName/ScreenOverlay.cs: ab1e9f94a57236d473be4e605c036ab1 -> 8b6e368a4e3d0df848783015d0ee2b1e
+  custom:scripting/monoscript/fileName/DialogueTrigger.cs: e5ccf90455bccccc9f19f84a7fc08f7b -> c03e2d1087f4c7cb763b48c777134116
+  custom:scripting/monoscript/fileName/CPlayerDefault.cs: 964bb0d95a6be68ab3c175774e4fe46d -> 3a4bc1c09334314420b5e19cba49d561
+  custom:scripting/monoscript/fileName/BlurOptimized.cs: 4e9ee33cf0e287c2cd7660f556af77bd -> a99dff34286593c12b0fab92e7c0da68
+  custom:scripting/monoscript/fileName/TMP_TextSelector_A.cs: 088357b4acdc1e6288d897936d29c8d3 -> 347309a09d56e367b188a6978f75b424
+  custom:scripting/monoscript/fileName/CameraMotionBlurEditor.cs: a2e27cf6aaa6ef59b553983edb108ddf -> 7c502cd6630e6f5609abadb3991d9ab2
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Benchmark02.cs: 92dcd0c0a469d0c0690d8ca0bfe95e6f -> 5640963252ce70910e726415f869ced6
+  custom:scripting/monoscript/fileName/Quads.cs: 50c5a46c819479851957e6c0fb9a8afd -> 2f24050aded65dda899533ba7849a43c
+  custom:scripting/monoscript/fileName/Blur.cs: bbec2d673bdbc7afb2bd6bbc9b56e520 -> 16b33e375f19895ec61239c77165934f
+  custom:scripting/monoscript/fileName/Bloom.cs: 5b9d902a508a8ef1cf68f2d27ef1c8ae -> 33cd4fe5846ab030762c2d9a63dce329
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DropdownSample.cs: b4fe7efb027fdd4854f643ad764daa8c -> 0a92251794e5f10400149f96c3c59e5d
+  custom:scripting/monoscript/fileName/DepthOfFieldDeprecatedEditor.cs: 6cf39a52f399fe70f2e93a07c83e9ab7 -> 9c0d6ba6950f727fa7ed1bfef973ec32
+  custom:scripting/monoscript/fileName/VertexJitter.cs: 6330f950b41eff6e5970f129864ecd6c -> d27eb5498e48714a66aece98da065133
+  custom:scripting/monoscript/fileName/ImageEffects.cs: 33b96cc589201a7a43449aead82bf899 -> fc49fae855f2f50655b411c31423a73d
+  custom:scripting/monoscript/fileName/CDialogueManager.cs: 935dd3d81d798377eccbfdd98faca8ed -> 73c1eb5fefb76087d9b9671628de9487
+  custom:scripting/monoscript/fileName/Vortex.cs: 12555a6b373c4486fab31a0a22403982 -> d2f7738ed789b7a977f000ffd0cf8890
+  custom:scripting/monoscript/fileName/WarpTextExample.cs: c5431dac938081648a3a3ac553c1029b -> 2663459c266363641981c7d17b698d7f
+  custom:scripting/monoscript/fileName/CPlayer.cs: ef32fad2ee300f3c1274135f87a180e9 -> 53b89e05f4636f5811196bcf0923fa32
+  custom:scripting/monoscript/fileName/PostEffectsBase.cs: 697d34e852ed8e89825eca325facedb6 -> 6aabc5a6e1a831a9196622d2796540be
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionCurvesEditor.cs: a9f79ada12a4c9d8bc1f4e0a3da9d91e -> ba8c98b45b2e94f575e6b8aff77cc447
+  custom:scripting/monoscript/fileName/CDoor.cs: 3c4c72db7cb8e40cea0de61499d33fb4 -> 966f26a33aec08577a16291443d6c6aa
+  custom:scripting/monoscript/fileName/TonemappingEditor.cs: 0eba88fff08ee1ebccd8486ec2a0ff6a -> edac4117593cd8c316e847cfa4a2c184
+  custom:scripting/monoscript/fileName/CObserverCsharpAction.cs: 51161b82186537c770e6122e34d97de7 -> a52a257fba7a092c88b4d41b9be84fdf
+  custom:scripting/monoscript/fileName/TextConsoleSimulator.cs: f2c8898b26c0cf2b0a1c7d12d99e6769 -> 33fc311abb20b5b0ed8f00e4d86b574e
+  custom:scripting/monoscript/fileName/VertexColorCycler.cs: 135fb0ebdaf256193ccc08218c426c64 -> 5f984ca91cf3609293aecc6bc5641572
+  custom:scripting/monoscript/fileName/VertexShakeB.cs: 587e5b2aecc39120c2c9ff69742ce897 -> a6f78c4fcda1a29a1a1c1baefedba9e7
+  custom:scripting/monoscript/fileName/CommentBlockData.cs: 1ba8321f15a6a563b2b8d06e1ae00750 -> f3d33b4aca0b83dfa5e532410b8475a2
+  custom:scripting/monoscript/fileName/TMP_FrameRateCounter.cs: 8afeb6f0251e063dcfff2bd827f92c62 -> 46f655df8cb483ac5958307137b1585a
+  custom:scripting/monoscript/fileName/CGameEventListener.cs: 3eada2907498068d9fd0a8340bd104b9 -> 4c24c20e7303992b97c9b0dedef10164
+  custom:scripting/monoscript/fileName/CMoffin.cs: 51db1a70b49982ec2fd34a59241ca9cf -> 8cbc9771344e55d5fa26dc63019c3f07
+  custom:scripting/monoscript/fileName/CLoop.cs: c7e8926dade63938813ab986456e165b -> 6bae139ee8cb67bb13d9dfed5b3dcee9
+  custom:scripting/monoscript/fileName/ColorCorrectionLookup.cs: 32bcec3d967c7cb116499ccbc6321228 -> cdade6b297f1c116727fa6035591313f
+  custom:scripting/monoscript/fileName/TMP_UiFrameRateCounter.cs: 8fa3bcf761bb5076fd90d0361518d59c -> b01021aea19247f14a98ab338907956a
+  custom:scripting/precompiled-assembly-types:Runtime: 5e47a281994b646481988e44fefb27e7 -> fcd122260c4747378e0c7300df9b6d1b
+  custom:scripting/monoscript/fileName/CCharacterTestScript.cs: 53625e86db77ff9bfa25765b2cdbe5c0 -> 63a6636eaf67d9ff14af974aee3f63a7
+  custom:scripting/monoscript/fileName/CPlayerData.cs: a8802f239ca46e6f627f9be8b29f0364 -> 156867cf7e6aa36de7ff6541d875fe6e
+  custom:scripting/monoscript/fileName/CCameraManager.cs: 22f569815a8028804ba50b7a1a580a16 -> f0eb68f78f8ca5af19230d90d9e6ab87
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Triangles.cs: 9124bcaf3f74eab43b935c7a16470917 -> 64f7a3839fbac059155d5ec1d8597e9c
+  custom:scripting/monoscript/fileName/DepthOfField.cs: 81226ab48f8a7d6183b7fc424f85a8c0 -> d3ca753d15782e18ed3483b3a0afd175
+  custom:scripting/monoscript/fileName/SunShaftsEditor.cs: 7444a21e935998109591c9e4d0b76160 -> 14ff19bb08f48e5592630a8ef09a85a4
+  custom:scripting/monoscript/fileName/DialogueContainer.cs: 9f205b106179ddaa9a98eab284378908 -> 7cc6c85e76205d88e3c106b2eb905017
+  custom:scripting/monoscript/fileName/ContrastStretch.cs: 6a3218467e010ab0bcaf5569352a06ce -> 606dc0496a32ea6e71f97dc962793c28
+  custom:scripting/monoscript/fileName/BloomEditor.cs: 496240480f080b6be32f1f26095dd997 -> 43b3df46b7cb2255d2c1c8dbcafea8dc
+  custom:scripting/monoscript/fileName/DialogueNode.cs: 47211ff513aef4d57ff3520193263d77 -> 2b00021edfa6d66c3cd388ccba7797be
+  custom:scripting/monoscript/fileName/CDialogue.cs: 01df106ca1bc219aa6c438a7e794ad01 -> 6997fe0a3430980c7baa5dde1c8b89b4
+  custom:scripting/monoscript/fileName/CUiAnimation.cs: add80cb8527d1945f8b0bac362f30cba -> 407153e91af08778d83e9e7585fdef58
+  custom:scripting/monoscript/fileName/TMPro_InstructionOverlay.cs: 194f3617683541355a9c6c8193e87b1c -> b626d2270e6ebd5c4311585c18b58d8d
+  custom:scripting/monoscript/fileName/DialogueParser.cs: 049ea2234a24cbd50f7973840692ca75 -> f9e2af6e552470b3a73d11282e0aa9b1
+  custom:scripting/monoscript/fileName/VignetteAndChromaticAberrationEditor.cs: f46f4c07b6874c237c4f6c99b0ac8f27 -> de7480822b02f6e7bbb6e752b450d6c9
+  custom:scripting/precompiled-assembly-types:Editor: 8245535fbc1719ec8bbac249db74abd5 -> 17e0317c7bdf00ceeab753c5da3f0395
+  custom:scripting/monoscript/fileName/ChatController.cs: ff21b89493e3dffcbe018a2cc5a10bae -> 876d5ccae6e345dd5d9450eb0a748f16
+  custom:scripting/monoscript/fileName/GraphSaveUtility.cs: 51f9ec281db0d594df647cba078bf7b7 -> 6ef992be2ec85ba1bece96148b542943
+  custom:scripting/monoscript/fileName/TMP_DigitValidator.cs: 4e5cde653ae28b90ab257e866c94dfce -> ac02af96215ae3951a3cce9e1a8c6085
+  custom:scripting/monoscript/fileName/CItemData.cs: 9c99664eb1a75b80ba5a15e55f21b2c1 -> e267873f54759ae96bcd490539226f8b
+  custom:scripting/monoscript/fileName/BloomOptimized.cs: 47c4eac263d410de018e3e89be9a8bea -> deef391a4062215fa64b13290b34b1e5
+  custom:scripting/monoscript/fileName/CStiff.cs: 19d47f76c94b2d12671f665718a2f47d -> 317a2ac30435eda45572cf62e237548a
+  custom:scripting/monoscript/fileName/BloomAndFlares.cs: defee703ca9a65ec4b5ea489f1b8340f -> 8afb5ea14b913734370925506b923fb7
+  custom:scripting/monoscript/fileName/VignetteAndChromaticAberration.cs: 939715cef1284d3c74948dac84630410 -> 6f7816e6c6a96eb38e8b34a3171a3d7a
+  custom:scripting/monoscript/fileName/GlobalFog.cs: 3204ae8c4d3170fb0094996f9bc4cdf4 -> cec4a166fe83b304dd694da080c37c22
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TextMeshSpawner.cs: c0f20e5855e88374db1098a5acc68df4 -> 76f28e2ddb031571e6ec62b018f65fa8
+  custom:scripting/monoscript/fileName/CSwitch.cs: a8ef6dd566d4992e174dd2aeb50ac564 -> 2da94dc23a7daa6fe271cbf2a7e17132
+  custom:scripting/monoscript/fileName/CDialogueTrigger.cs: 3aca2c1aa1fead10ba1d8e3a3a691f4b -> 358c65b338b1f8accd225d479f78eeb2
+  custom:scripting/monoscript/fileName/Tonemapping.cs: 9d2afe0f50ecec8d29375476ccb41dcb -> c9f290b3ad74cc49f26aca1f0af02743
+  custom:scripting/monoscript/fileName/CObject.cs: bfb013c6791ed4bb5f3157dea1680999 -> c9a0d8ca02252d38f33313384fff5c1a
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: cd3f0d39576de6cd333b1baa4e8e70c0 -> 06d81217a5737eeaf03e7a32d873a572
+  custom:scripting/monoscript/fileName/Benchmark01_UGUI.cs: 52a24b07fcdd062ef495404efdb65870 -> 6148cfe2627b7708298f301788144139
+  custom:scripting/monoscript/fileName/EdgeDetection.cs: dffef6448852cc0b1f083e1ec7802a62 -> 7e270773de6bd808e57f1eb909c3207a
+  custom:scripting/monoscript/fileName/TeleType.cs: c18e16db35615314900dbe198d0144e7 -> 31fa97821c4c70f157ec81d507aa6b62
+  custom:scripting/monoscript/fileName/Benchmark04.cs: 86dfb70824307c4cf164687df2489226 -> 32220b148620e52aa81c13a114862bf4
+  custom:scripting/monoscript/fileName/EdgeDetectionEditor.cs: 4a8871e87f34c0d08e905c6fc8c6f4b8 -> 4cca3302e9c064dba4f706ba0e5d7102
+  custom:scripting/monoscript/fileName/StoryGraphView.cs: 96f49eb179652de26b8300e75f82370c -> c65534c3a95b1b834554ada5ad8a098f
+  custom:scripting/monoscript/fileName/ColorCorrectionCurves.cs: 6a95796a1b51025f8dcd91a749e1ce51 -> 0fe9ce599982e40ac8aba010733d7bdc
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4557f57263e9703cfada99202a983fa2 -> a756ca86c0166bf0f1945565682cf1be
+  custom:scripting/monoscript/fileName/CLevelController.cs: 79e3565feae03356e40513f57eb72dd9 -> 53a2208a2941ed5c4a4f91e773611024
+  custom:scripting/monoscript/fileName/ExposedProperty.cs: 0d01b3987dff5344bc64b920e476d0f3 -> 0b959f6679fd537045afc5cc170a8fd7
+  custom:scripting/monoscript/fileName/Benchmark03.cs: 520976d641c2b7cf395e30b045f5a45d -> 17cc87e0529ac71d909a946afb47a274
+  custom:scripting/monoscript/fileName/CEventChangeColor.cs: 80a67efafd95eb646fa42a7d32f8c170 -> ef6e7315b062e9723a922dc7eb2151ec
+  custom:scripting/monoscript/fileName/CAnimationController.cs: e5ce5926167b70c98db9ca7484684d9a -> be912743ee029ffd943bb96edc42bbbf
+  custom:scripting/monoscript/fileName/ColorCorrectionRamp.cs: c4e8a12ca5d024db31eeeee44d83c34f -> a7e8fab02fd9ee3f41f3660b4752114a
+  custom:scripting/monoscript/fileName/NoiseAndScratches.cs: 268bc57f54943734568958a0054514e0 -> e0c1886d5a6b335ec4861c2068c91d03
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ContrastEnhance.cs: 4e8f83aba7d3f6be44d38d7a40620b72 -> 25207a33818c5454fd86fad73189b2cd
+========================================================================
+Received Prepare
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.330 seconds
-Refreshing native plugins compatible for Editor in 6.37 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.601 seconds
+Refreshing native plugins compatible for Editor in 4.45 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.554 seconds
-Domain Reload Profiling: 4883ms
-	BeginReloadAssembly (630ms)
+- Finished resetting the current domain, in  1.519 seconds
+Domain Reload Profiling: 2120ms
+	BeginReloadAssembly (209ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (29ms)
+		DisableScriptedObjects (18ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (109ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (592ms)
-		LoadAssemblies (878ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (281ms)
+		LoadAssemblies (331ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (25ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (3554ms)
+		AnalyzeDomain (51ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1521ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1484ms)
+		SetupLoadedEditorAssemblies (665ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
+			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (232ms)
-			ProcessInitializeOnLoadAttributes (1156ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (473ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (600ms)
-Refreshing native plugins compatible for Editor in 4.74 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (157ms)
+Refreshing native plugins compatible for Editor in 4.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2993 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (97.7 KB). Loaded Objects now: 3724.
-Memory consumption went from 166.3 MB to 166.2 MB.
-Total: 50.671300 ms (FindLiveObjects: 8.456300 ms CreateObjectMapping: 1.700400 ms MarkObjects: 40.133700 ms  DeleteObjects: 0.377200 ms)
+Unloading 32 unused Assets / (97.8 KB). Loaded Objects now: 3724.
+Memory consumption went from 166.2 MB to 166.1 MB.
+Total: 6.073100 ms (FindLiveObjects: 0.375700 ms CreateObjectMapping: 0.411900 ms MarkObjects: 5.127500 ms  DeleteObjects: 0.156500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -249,63 +470,473 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 53842.748390 seconds.
-  path: Assets/RenPyEngine/Renpy/RenPy Maker/Resources/Tutorial/Ren'Py Maker Tutorial.asset
-  artifactKey: Guid(5a3b028a78a85b44b813e3428f157019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RenPyEngine/Renpy/RenPy Maker/Resources/Tutorial/Ren'Py Maker Tutorial.asset using Guid(5a3b028a78a85b44b813e3428f157019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f924e43af03d51e4b7a64faa8ea631') in 0.039848 seconds
+  Time since last request: 224.652096 seconds.
+  path: Assets/GameIdea.PNG
+  artifactKey: Guid(c160dce512404a241beaea209c236bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameIdea.PNG using Guid(c160dce512404a241beaea209c236bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fbff2c7cb7419118ae4cc211cf4c2d') in 0.144411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 21.795580 seconds.
+  path: Assets/LDA-OriginProyect/Scenes
+  artifactKey: Guid(b1a81aa621872414cac4da0194e200bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LDA-OriginProyect/Scenes using Guid(b1a81aa621872414cac4da0194e200bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebca1f6e7273ec66b3cf9800cdc981d') in 0.000816 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.768 seconds
-Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.774 seconds
+Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.750 seconds
-Domain Reload Profiling: 2517ms
-	BeginReloadAssembly (377ms)
+- Finished resetting the current domain, in  2.587 seconds
+Domain Reload Profiling: 3360ms
+	BeginReloadAssembly (323ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
+		DisableScriptedObjects (19ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (52ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (47ms)
 	RebuildNativeTypeToScriptingClass (17ms)
 	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (285ms)
-		LoadAssemblies (525ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (533ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (16ms)
 			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (1751ms)
+	FinalizeReload (2588ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (923ms)
+		SetupLoadedEditorAssemblies (1452ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (119ms)
-			ProcessInitializeOnLoadAttributes (711ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (1099ms)
+			ProcessInitializeOnLoadMethodAttributes (192ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (224ms)
-Refreshing native plugins compatible for Editor in 87.22 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (369ms)
+Refreshing native plugins compatible for Editor in 7.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2992 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (97.7 KB). Loaded Objects now: 3729.
-Memory consumption went from 168.0 MB to 167.9 MB.
-Total: 9.824800 ms (FindLiveObjects: 0.634700 ms CreateObjectMapping: 0.619000 ms MarkObjects: 8.411000 ms  DeleteObjects: 0.158400 ms)
+Unloading 32 unused Assets / (97.9 KB). Loaded Objects now: 3734.
+Memory consumption went from 172.2 MB to 172.1 MB.
+Total: 9.393500 ms (FindLiveObjects: 0.641800 ms CreateObjectMapping: 1.110800 ms MarkObjects: 7.316600 ms  DeleteObjects: 0.322800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.075 seconds
+Refreshing native plugins compatible for Editor in 4.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.341 seconds
+Domain Reload Profiling: 5415ms
+	BeginReloadAssembly (391ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (153ms)
+	RebuildCommonClasses (199ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (387ms)
+		LoadAssemblies (523ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (4343ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2652ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (21ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (224ms)
+			ProcessInitializeOnLoadAttributes (1973ms)
+			ProcessInitializeOnLoadMethodAttributes (406ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (950ms)
+Refreshing native plugins compatible for Editor in 13.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2993 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (97.9 KB). Loaded Objects now: 3738.
+Memory consumption went from 174.4 MB to 174.3 MB.
+Total: 12.628800 ms (FindLiveObjects: 1.213600 ms CreateObjectMapping: 0.606200 ms MarkObjects: 10.422000 ms  DeleteObjects: 0.382600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.678 seconds
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.871 seconds
+Domain Reload Profiling: 4549ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (326ms)
+		LoadAssemblies (423ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (3872ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2253ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (363ms)
+			ProcessInitializeOnLoadAttributes (1646ms)
+			ProcessInitializeOnLoadMethodAttributes (206ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (477ms)
+Refreshing native plugins compatible for Editor in 9.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2993 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (97.9 KB). Loaded Objects now: 3742.
+Memory consumption went from 176.4 MB to 176.3 MB.
+Total: 22.904000 ms (FindLiveObjects: 2.419600 ms CreateObjectMapping: 1.717500 ms MarkObjects: 18.545400 ms  DeleteObjects: 0.218600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.818 seconds
+Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.655 seconds
+Domain Reload Profiling: 4474ms
+	BeginReloadAssembly (370ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (338ms)
+		LoadAssemblies (576ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (3657ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2200ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (294ms)
+			ProcessInitializeOnLoadAttributes (1641ms)
+			ProcessInitializeOnLoadMethodAttributes (243ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (441ms)
+Refreshing native plugins compatible for Editor in 6.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2993 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (97.9 KB). Loaded Objects now: 3746.
+Memory consumption went from 178.3 MB to 178.2 MB.
+Total: 20.938100 ms (FindLiveObjects: 2.461000 ms CreateObjectMapping: 0.940800 ms MarkObjects: 17.148000 ms  DeleteObjects: 0.384900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.945 seconds
+Refreshing native plugins compatible for Editor in 15.47 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.357 seconds
+Domain Reload Profiling: 5303ms
+	BeginReloadAssembly (398ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (436ms)
+		LoadAssemblies (648ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (65ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (45ms)
+	FinalizeReload (4358ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2554ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (301ms)
+			ProcessInitializeOnLoadAttributes (1849ms)
+			ProcessInitializeOnLoadMethodAttributes (363ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (594ms)
+Refreshing native plugins compatible for Editor in 8.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2993 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (98.0 KB). Loaded Objects now: 3750.
+Memory consumption went from 180.2 MB to 180.1 MB.
+Total: 10.956600 ms (FindLiveObjects: 0.520000 ms CreateObjectMapping: 0.484300 ms MarkObjects: 9.779000 ms  DeleteObjects: 0.171400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.117 seconds
+Refreshing native plugins compatible for Editor in 6.66 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.270 seconds
+Domain Reload Profiling: 8385ms
+	BeginReloadAssembly (747ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (155ms)
+	RebuildCommonClasses (268ms)
+	RebuildNativeTypeToScriptingClass (83ms)
+	initialDomainReloadingComplete (254ms)
+	LoadAllAssembliesAndSetupDomain (761ms)
+		LoadAssemblies (1109ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (6272ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3842ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (654ms)
+			ProcessInitializeOnLoadAttributes (2564ms)
+			ProcessInitializeOnLoadMethodAttributes (603ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1268ms)
+Refreshing native plugins compatible for Editor in 65.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2993 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (98.2 KB). Loaded Objects now: 3754.
+Memory consumption went from 182.2 MB to 182.1 MB.
+Total: 17.616500 ms (FindLiveObjects: 1.114800 ms CreateObjectMapping: 0.636300 ms MarkObjects: 15.597000 ms  DeleteObjects: 0.265500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -323,33 +954,151 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 126.382485 seconds.
-  path: Assets/Scripts/Design-Patterns
-  artifactKey: Guid(617a7ba4f694a1643b2da9550fb6c44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Design-Patterns using Guid(617a7ba4f694a1643b2da9550fb6c44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0fb0287603fe05c9c9cf5cab95aa30') in 0.002141 seconds
+  Time since last request: 698.610224 seconds.
+  path: Assets/LDA-NewProyect
+  artifactKey: Guid(83140aaf89fca1946866822a60b038b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LDA-NewProyect using Guid(83140aaf89fca1946866822a60b038b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7136ff735f64c66470c95153ee66ba') in 0.002600 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.789680 seconds.
-  path: Assets/Scripts/Design-Patterns/Behavioral Patterns
-  artifactKey: Guid(ed3a0bde9e204da45aa237c6dd4496c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Design-Patterns/Behavioral Patterns using Guid(ed3a0bde9e204da45aa237c6dd4496c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d159570e89199b113f4e362f818f7b') in 0.000709 seconds
+  Time since last request: 9.873607 seconds.
+  path: Assets/LDA-NewProyect/New Folder
+  artifactKey: Guid(d29af4ff526787140b4a7bacf3af2b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LDA-NewProyect/New Folder using Guid(d29af4ff526787140b4a7bacf3af2b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686120f30af8e573608400ac6952684a') in 0.000940 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.662460 seconds.
-  path: Assets/Scripts/Design-Patterns/Behavioral Patterns/Examples
-  artifactKey: Guid(0e50f73b86b1c574ab455d59298e43d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Design-Patterns/Behavioral Patterns/Examples using Guid(0e50f73b86b1c574ab455d59298e43d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a09654d010cbefcad352194a4306a29') in 0.000500 seconds
+  Time since last request: 3.921302 seconds.
+  path: Assets/LDA-NewProyect/Script
+  artifactKey: Guid(d29af4ff526787140b4a7bacf3af2b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LDA-NewProyect/Script using Guid(d29af4ff526787140b4a7bacf3af2b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ebf23ab6126118963b2d7f482f6037') in 0.000613 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 2.145216 seconds.
-  path: Assets/Scripts/Design-Patterns/Behavioral Patterns/Observer Pattern
-  artifactKey: Guid(47985b2c18a124b458b9a04834dcf895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Design-Patterns/Behavioral Patterns/Observer Pattern using Guid(47985b2c18a124b458b9a04834dcf895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72b668cc6bba4095d41f46a39b949ba') in 0.000708 seconds
+  Time since last request: 4.578744 seconds.
+  path: Assets/LDA-NewProyect/Art
+  artifactKey: Guid(e6d57d68ac76c1848b393c4acd1c15bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LDA-NewProyect/Art using Guid(e6d57d68ac76c1848b393c4acd1c15bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2372dd4cb76b017d18addee4e8bca02d') in 0.000541 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.855596 seconds.
+  path: Assets/LDA-NewProyect/Dilogues
+  artifactKey: Guid(0dff5842e364fe3438da9e0f2fc93060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LDA-NewProyect/Dilogues using Guid(0dff5842e364fe3438da9e0f2fc93060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce049a751716ca893c839c4e1b5701a') in 0.000544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.579719 seconds.
+  path: Assets/LDA-NewProyect/New Folder
+  artifactKey: Guid(34e696e96ddf06946bd41043a8a325e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LDA-NewProyect/New Folder using Guid(34e696e96ddf06946bd41043a8a325e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49d1d9367bbabae0f6197966e7651f2') in 0.000631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.591545 seconds.
+  path: Assets/LDA-NewProyect/Data
+  artifactKey: Guid(34e696e96ddf06946bd41043a8a325e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LDA-NewProyect/Data using Guid(34e696e96ddf06946bd41043a8a325e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff43867b3a8472cb0a861acc673ca5ad') in 0.000727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.496524 seconds.
+  path: Assets/LDA-NewProyect/Art/New Object.asset
+  artifactKey: Guid(bc70426a69c4c0c4eb3825796be5f363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LDA-NewProyect/Art/New Object.asset using Guid(bc70426a69c4c0c4eb3825796be5f363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d6c727b4c76430382375a981af4914') in 0.016908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.473274 seconds.
+  path: Assets/LDA-NewProyect/Art/Test-Folder.asset
+  artifactKey: Guid(bc70426a69c4c0c4eb3825796be5f363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LDA-NewProyect/Art/Test-Folder.asset using Guid(bc70426a69c4c0c4eb3825796be5f363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9b54bbb62b7a6d2448e226268baf8c') in 0.001523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.802 seconds
+Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Runtime' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Runtime' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Runtime/Subtegral.DialogueSystem.Runtime.asmdef)
+Assembly with name 'Editor' already exists (Assets/LDA-OriginProyect/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+Assembly with name 'Editor' already exists (Assets/Scripts/NodeBasedDialogueSystem-master/com.subtegral.dialoguesystem/Editor/Subtegral.DialogueSystem.Editor.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.353 seconds
+Domain Reload Profiling: 4155ms
+	BeginReloadAssembly (309ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (382ms)
+		LoadAssemblies (564ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (3355ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2022ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (258ms)
+			ProcessInitializeOnLoadAttributes (1611ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (552ms)
+Refreshing native plugins compatible for Editor in 3.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2992 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (98.0 KB). Loaded Objects now: 3758.
+Memory consumption went from 183.8 MB to 183.7 MB.
+Total: 38.281400 ms (FindLiveObjects: 3.966900 ms CreateObjectMapping: 1.771700 ms MarkObjects: 31.475600 ms  DeleteObjects: 0.418700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
