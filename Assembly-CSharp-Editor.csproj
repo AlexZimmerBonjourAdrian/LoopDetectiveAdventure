@@ -1139,9 +1139,17 @@
       <Project>{BECFB70F-0842-4B15-BA8D-BFE97B2C65E3}</Project>
       <Name>XNode</Name>
     </ProjectReference>
+    <ProjectReference Include="undream.llmunity.Runtime.csproj">
+      <Project>{476C0653-C6D0-D62C-1FEE-42F34B28BF31}</Project>
+      <Name>undream.llmunity.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="Runtime.csproj">
       <Project>{BFACA118-5DA9-ECB9-7380-93A441D5314D}</Project>
       <Name>Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="undream.llmunity.Editor.csproj">
+      <Project>{9913FF5C-8A61-BD2C-B6C3-6484951002AF}</Project>
+      <Name>undream.llmunity.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Editor.csproj">
       <Project>{B9093164-5146-DF12-7208-0E5A442A36A4}</Project>

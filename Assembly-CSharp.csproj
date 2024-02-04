@@ -91,6 +91,7 @@
     <Compile Include="Assets\LDA-OriginProyect\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\LDA-OriginProyect\Scripts\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\LDA-OriginProyect\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\LLS-proyect\LLMUnity\Samples\ServerClient\ServerClient.cs" />
     <Compile Include="Assets\LDA-OriginProyect\Scripts\Camera\CCameraManager.cs" />
     <Compile Include="Assets\LDA-OriginProyect\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\LDA-OriginProyect\Scripts\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
@@ -103,6 +104,7 @@
     <Compile Include="Assets\LDA-OriginProyect\Scripts\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
     <Compile Include="Assets\RenPyEngine\Renpy\RenPy Maker\RenpyMaker.cs" />
     <Compile Include="Assets\RenPyEngine\Renpy\RenPy Maker\SceneNode.cs" />
+    <Compile Include="Assets\LLS-proyect\LLMUnity\Samples\ChatBot\Bubble.cs" />
     <Compile Include="Assets\LDA-OriginProyect\Scripts\Design-Patterns\Behavioral Patterns\Examples\cGameEventListenerCsharp.cs" />
     <Compile Include="Assets\RenPyEngine\Renpy\RenPy Maker\BaseNode.cs" />
     <Compile Include="Assets\LDA-OriginProyect\Scripts\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
@@ -113,18 +115,19 @@
     <Compile Include="Assets\LDA-OriginProyect\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\LDA-OriginProyect\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\LDA-OriginProyect\Scripts\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
-    <Compile Include="Assets\RenPyEngine\Renpy\RenPy Maker\CharacterNode.cs" />
     <Compile Include="Assets\LDA-OriginProyect\Scripts\Objects\Level\CLevelController.cs" />
+    <Compile Include="Assets\RenPyEngine\Renpy\RenPy Maker\CharacterNode.cs" />
     <Compile Include="Assets\LDA-OriginProyect\Scripts\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
     <Compile Include="Assets\RenPyEngine\Renpy\RenPy Maker\ShowNode.cs" />
     <Compile Include="Assets\LDA-OriginProyect\Scripts\scriptableObject\SaveAndLoadSystem\CPlayerData.cs" />
+    <Compile Include="Assets\LLS-proyect\LLMUnity\Samples\ChatBot\ChatBot.cs" />
     <Compile Include="Assets\LDA-OriginProyect\Scripts\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
     <Compile Include="Assets\LDA-OriginProyect\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\LDA-OriginProyect\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\LDA-OriginProyect\Scripts\Dialogue-System-master\Dialogue System\Assets\DialogueTrigger.cs" />
     <Compile Include="Assets\LDA-OriginProyect\Scripts\DialogueManager\CDialogue.cs" />
-    <Compile Include="Assets\RenPyEngine\Renpy\RenPy Maker\CallNode.cs" />
     <Compile Include="Assets\LDA-OriginProyect\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\RenPyEngine\Renpy\RenPy Maker\CallNode.cs" />
     <Compile Include="Assets\LDA-OriginProyect\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\RenPyEngine\Renpy\RenPy Maker\JumpNode.cs" />
     <Compile Include="Assets\LDA-OriginProyect\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
@@ -161,6 +164,7 @@
     <Compile Include="Assets\LDA-OriginProyect\Scripts\Objects\CCharacter.cs" />
     <Compile Include="Assets\LDA-OriginProyect\Scripts\EventSystem\CCharacterController.cs" />
     <Compile Include="Assets\LDA-OriginProyect\Scripts\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+    <Compile Include="Assets\LLS-proyect\LLMUnity\Samples\ChatBot\ExitButton.cs" />
     <Compile Include="Assets\RenPyEngine\Renpy\RenPy Maker\NarrateNode.cs" />
     <Compile Include="Assets\LDA-OriginProyect\Scripts\Objects\CManagerObject.cs" />
     <Compile Include="Assets\RenPyEngine\Renpy\RenPy Maker\PauseNode.cs" />
@@ -198,6 +202,7 @@
     <Compile Include="Assets\LDA-OriginProyect\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\LDA-OriginProyect\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\LDA-OriginProyect\Scripts\Objects\CPlayer.cs" />
+    <Compile Include="Assets\LLS-proyect\LLMUnity\Samples\SimpleInteraction\SimpleInteraction.cs" />
     <Compile Include="Assets\LDA-OriginProyect\Scripts\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
     <Compile Include="Assets\LDA-OriginProyect\Scripts\EventSystem\CGameEventListener.cs" />
     <Compile Include="Assets\LDA-OriginProyect\Scripts\NodeBasedDialogueSystem-master\Samples\DialogueSystemDemo\DialogueParser.cs" />
@@ -1294,9 +1299,17 @@
       <Project>{BECFB70F-0842-4B15-BA8D-BFE97B2C65E3}</Project>
       <Name>XNode</Name>
     </ProjectReference>
+    <ProjectReference Include="undream.llmunity.Runtime.csproj">
+      <Project>{476C0653-C6D0-D62C-1FEE-42F34B28BF31}</Project>
+      <Name>undream.llmunity.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="Runtime.csproj">
       <Project>{BFACA118-5DA9-ECB9-7380-93A441D5314D}</Project>
       <Name>Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="undream.llmunity.Editor.csproj">
+      <Project>{9913FF5C-8A61-BD2C-B6C3-6484951002AF}</Project>
+      <Name>undream.llmunity.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Editor.csproj">
       <Project>{B9093164-5146-DF12-7208-0E5A442A36A4}</Project>
