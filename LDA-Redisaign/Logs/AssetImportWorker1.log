@@ -1,0 +1,400 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.38f1 (c5d5a7410213) revision 12965287'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16267 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\UnityInstalled\2022.3.38f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/LoopDetectiveAdventure/LDA-Redisaign
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51254
+Successfully changed project path to: E:/LoopDetectiveAdventure/LDA-Redisaign
+E:/LoopDetectiveAdventure/LDA-Redisaign
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27448]  Target information:
+
+Player connection [27448]  * "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 2562412657 [EditorId] 2562412657 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O8GDVT2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27448] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27448] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 23.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.38f1 (c5d5a7410213)
+[Subsystems] Discovering subsystems at path E:/UnityInstalled/2022.3.38f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/LoopDetectiveAdventure/LDA-Redisaign/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 850M (ID=0x1391)
+    Vendor:   NVIDIA
+    VRAM:     4047 MB
+    Driver:   32.0.15.5585
+Initialize mono
+Mono path[0] = 'E:/UnityInstalled/2022.3.38f1/Editor/Data/Managed'
+Mono path[1] = 'E:/UnityInstalled/2022.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/UnityInstalled/2022.3.38f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/UnityInstalled/2022.3.38f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/UnityInstalled/2022.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019678 seconds.
+- Loaded All Assemblies, in  2.095 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1353 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.575 seconds
+Domain Reload Profiling: 4669ms
+	BeginReloadAssembly (686ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (246ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (307ms)
+	LoadAllAssembliesAndSetupDomain (819ms)
+		LoadAssemblies (688ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (811ms)
+			TypeCache.Refresh (808ms)
+				TypeCache.ScanAssembly (769ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2576ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2233ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1765ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (374ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Loading assembly failed: "Library/ScriptAssemblies/XNode.dll"
+Loading assembly failed: "Library/ScriptAssemblies/XNodeEditor.dll"
+Unloading broken assembly Library/ScriptAssemblies/Assembly-CSharp.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Library/ScriptAssemblies/Assembly-CSharp-Editor.dll, this assembly can cause crashes in the runtime
+- Loaded All Assemblies, in  4.743 seconds
+Refreshing native plugins compatible for Editor in 15.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.452 seconds
+Domain Reload Profiling: 8178ms
+	BeginReloadAssembly (751ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (52ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (100ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (987ms)
+	LoadAllAssembliesAndSetupDomain (2866ms)
+		LoadAssemblies (2292ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1079ms)
+			TypeCache.Refresh (855ms)
+				TypeCache.ScanAssembly (811ms)
+			ScanForSourceGeneratedMonoScriptInfo (144ms)
+			ResolveRequiredComponents (72ms)
+	FinalizeReload (3454ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2763ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (249ms)
+			SetLoadedEditorAssemblies (21ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (355ms)
+			ProcessInitializeOnLoadAttributes (1941ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (114ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (69ms)
+Assertion failed on expression: 'reloadOk'
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.37 seconds
+Refreshing native plugins compatible for Editor in 6.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3101 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (126.4 KB). Loaded Objects now: 3570.
+Memory consumption went from 155.0 MB to 154.9 MB.
+Total: 17.577200 ms (FindLiveObjects: 0.762200 ms CreateObjectMapping: 0.396400 ms MarkObjects: 15.910800 ms  DeleteObjects: 0.504400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/LabelEditor.cs: da64ddba666143270820d360b5ebc1ff -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/LabelNode.cs: c9b440ca24aeb3140daffd107972cab1 -> bb168b1fd7a6cdd9e3a39394a14c34bf
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MusicNode.cs: 3bb0f869f19f1d59ca6d3009b4de4ad1 -> 0cd3f5f35d13c62ab1759e9ebfbfd15b
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/NodeEditorUtilities.cs: 89432132d0a46ac1338b050982f21e29 -> 
+  custom:scripting/monoscript/fileName/ReturnNode.cs: 733bf3d41f731073a357631bb1d0eead -> 1247ca7cbd5a995438ed1230488aea5e
+  custom:scripting/monoscript/fileName/CallNode.cs: 869ce1fe5a14e807c1114cad5b38f2a0 -> 5d27574774845db441a3d96eae298403
+  custom:scripting/monoscript/fileName/NodeGraph.cs: ac7f3cca484b9e168a5c76574e7970de -> 
+  custom:scripting/monoscript/fileName/NodeEditor.cs: 414b874e159540604652096b25e7f2b5 -> 
+  custom:scripting/monoscript/fileName/RenpyMakerEditor.cs: 9953f4de49ca00f6feac4b733a462263 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/QueueMusicEditor.cs: 16547c97a5b51f3934285932990aeaab -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/SceneGraphEditor.cs: f5c26de67e7d4b2c9a493ffec0833514 -> 
+  custom:scripting/monoscript/fileName/NodeEditorReflection.cs: dca631648e95d4be6e176c4f5e3ff6d2 -> 
+  custom:scripting/monoscript/fileName/RenamePopup.cs: 52f6b69ed70a00ae2d020d17b7784ef1 -> 
+  custom:scripting/monoscript/fileName/GraphRenameFixAssetProcessor.cs: 335ea796a18dc5ce2dfb60bf27d92f3b -> 
+  custom:scripting/monoscript/fileName/NodeEditorWindow.cs: a9c58e9840568b20d3fbd550039e8bcf -> 
+  custom:scripting/monoscript/fileName/NodeEnumDrawer.cs: 0d4ad54e3e5473474528b8f20de320fa -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MusicEditor.cs: 0ec73957d95bba2fa6021f64246f0619 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/BaseNode.cs: 354572641e6bffb71114520c5c025fea -> 79505d12818c353e1c22bb621da805c5
+  custom:scripting/monoscript/fileName/CommentEditor.cs: cb85e8cac5beab19816d6fd4b89790d7 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/NodeEditorAction.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/TransitionEditor.cs: f89a684986a2631e9868307be02e6f4c -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/NodeEditorGUILayout.cs: b690452cd91e6e3e39dd0f36e8a6c219 -> 
+  custom:scripting/precompiled-assembly-types:XNode: 50850bc1feb8cb533d994aad9994395b -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PauseEditor.cs: f49ed5d9e34671e71070b63080c75bb8 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/DialogueEditor.cs: 48a845983a7a14b7dd493a1ef9032a79 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/CommentNode.cs: 26517d5f2a26068dddcdf0a6585d9f3f -> 15a0435593ea1482137fe98fd1adbba5
+  custom:scripting/monoscript/fileName/JumpEditor.cs: 9854eb102314a3c83fe9cb086d39dce2 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/RerouteReference.cs: e1c9f48ac92e8318ce5ae4ccb3f717f9 -> 
+  custom:scripting/monoscript/fileName/ShowNode.cs: 63c1536918863e17331a752ae96544c1 -> 620783f6c70b728699db32a70d075fef
+  custom:scripting/monoscript/fileName/StartEditor.cs: 1e0ac3a337f3c59bb9a6a761a4e5d9b4 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ShowEditor.cs: 1265f69b00d8a4322ef5440e36eae8a4 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/NarrateEditor.cs: 71eb8e07cc30372fe3f4809f1512741e -> 90647cc400823b41df847a6cbfc29026
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/NodeGraphEditor.cs: 0fadf7e0f733e1c489995016de8788e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NodeEditorResources.cs: e36c4dc4eb4dfd04d2c3f45628ad23b7 -> 
+  custom:scripting/monoscript/fileName/CharacterNode.cs: 387ba1d4f86709dd94803e3a696f2d4f -> 771fdff82db9148e366f602fa2386269
+  custom:scripting/monoscript/fileName/GraphAndNodeEditor.cs: 15a4496857716d528e16178cffff94a9 -> 
+  custom:scripting/monoscript/fileName/NodeEditorGUI.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/SceneNode.cs: df1768437ad4600095e090c2f07af042 -> 5216f2720dc9712b15ea8764cf4e9f61
+  custom:scripting/monoscript/fileName/NodeDataCache.cs: 93c866b51dacad9374825df3fb586452 -> 
+  custom:scripting/monoscript/fileName/AdvancedGenericMenu.cs: 566f58ffb2d2ff9685887f6194ac168f -> 
+  custom:scripting/monoscript/fileName/MenuEditor.cs: 87edc3ba7018cb79627a001383653532 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/JumpNode.cs: 0d32d5632a59f1bb07430b4a50a3acc9 -> 445c6d174c7d19ab36510249cec2b0ec
+  custom:scripting/monoscript/fileName/TransitionNode.cs: 1627c2a4a86fdf6a9e94c507d33ece07 -> a8219a543c134c7dc6bcd89d579277c9
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SceneGraph.cs: 1aff50e26e57b464016405c66bea6bab -> 
+  custom:scripting/monoscript/fileName/NodeEditorBase.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/NodeEditorPreferences.cs: c3aefce0a4fb2d16e6722d56532e5180 -> 
+  custom:scripting/monoscript/fileName/ReturnEditor.cs: fb51b54a91b04b7aed23d52a3759c415 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/precompiled-assembly-types:XNodeEditor: 4e03669b0e98656c94278a6ba3ffdc98 -> 
+  custom:scripting/monoscript/fileName/DialogueNode.cs: 2b00021edfa6d66c3cd388ccba7797be -> df28cab4df79a6056bb5f56d71488a30
+  custom:scripting/monoscript/fileName/PauseNode.cs: 469f813fc704011655a93671eb64f680 -> 9a88f670d036e59f8a8e267ddc6ec10d
+  custom:scripting/monoscript/fileName/NodeEnum.cs: e2db5f336cd39af8bd09f70935d9fce1 -> 
+  custom:scripting/monoscript/fileName/StopMusicEditor.cs: 29c647d6586b00236d471b2bcd7b1f46 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/MenuNode.cs: 22e5af21b92c5e60db719876a15f435f -> 2379df7e5700f66c2c7fb5fbabe65cc5
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NodeGraphImporter.cs: 86a6d5d4ca66f4daead005c91857bf40 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: cd3f0d39576de6cd333b1baa4e8e70c0 -> 
+  custom:scripting/monoscript/fileName/HideNode.cs: 1d01672af157736519b1d06ddf9e237f -> cad7871f775ee00fde2d251403e7ea63
+  custom:scripting/monoscript/fileName/NarrateNode.cs: 138eb422cc477496d655eb1be9dbf1c7 -> 5db35739841d51e20cde7491875bb67a
+  custom:scripting/monoscript/fileName/StartNode.cs: 6bd1aed59f571ca134584f361fc6d71a -> ec5e25a01a64e49474e84279d9ffd729
+  custom:scripting/monoscript/fileName/HideEditor.cs: 6e40bd7912bb1fa491547e9b5afd7c87 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/QueueMusicNode.cs: b08f76e20f72846a871dcc8d18b2560c -> 56f096813f1b080d85b3a5f5d301392b
+  custom:scripting/monoscript/fileName/NodePort.cs: 8185fa64cfd2f7ec7334f64fc40ab2bb -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4557f57263e9703cfada99202a983fa2 -> 
+  custom:scripting/monoscript/fileName/SoundEditor.cs: 6122a5a2c0d3e8dfaadd9ac329d191f2 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/SoundNode.cs: 2ec2c8af52e2165e4241f7e38058f37c -> af11dc6e5770b12adb2e71a871efed7f
+  custom:scripting/monoscript/fileName/Node.cs: fbe9c36a2c9447a63dda6fca2d3b6ba8 -> 
+  custom:scripting/monoscript/fileName/NodeEditorAssetModProcessor.cs: ef6194c16293a9e307c921cfb3427025 -> 
+  custom:scripting/monoscript/fileName/SceneEditor.cs: c8642f0b818ef8d5e937556cbcd8f805 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/CharacterEditor.cs: 4fa456b5265e656e2329ae925faff5e7 -> 90647cc400823b41df847a6cbfc29026
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/RenpyMaker.cs: 28ab233e178f5d7bafad70abe2502795 -> 0e82b617a2fadd3a7190ac246ab86765
+  custom:scripting/monoscript/fileName/StopMusicNode.cs: a05603ea23c3bc5b9aac345e4d320c6d -> 07c0b245fd08e6a29c39354e8c226baf
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.477 seconds
+Refreshing native plugins compatible for Editor in 6.09 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.148 seconds
+Domain Reload Profiling: 4622ms
+	BeginReloadAssembly (478ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (184ms)
+	RebuildCommonClasses (204ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (722ms)
+		LoadAssemblies (869ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (55ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (3150ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1437ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (1206ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (170ms)
+Refreshing native plugins compatible for Editor in 6.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2931 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (114.6 KB). Loaded Objects now: 3544.
+Memory consumption went from 130.0 MB to 129.9 MB.
+Total: 6.650800 ms (FindLiveObjects: 0.668400 ms CreateObjectMapping: 0.271900 ms MarkObjects: 5.359300 ms  DeleteObjects: 0.349400 ms)
+
+Prepare: number of updated asset objects reloaded= 13
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/LabelEditor.cs: da64ddba666143270820d360b5ebc1ff -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/LabelNode.cs: c9b440ca24aeb3140daffd107972cab1 -> bb168b1fd7a6cdd9e3a39394a14c34bf
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MusicNode.cs: 3bb0f869f19f1d59ca6d3009b4de4ad1 -> 0cd3f5f35d13c62ab1759e9ebfbfd15b
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/NodeEditorUtilities.cs: 89432132d0a46ac1338b050982f21e29 -> 
+  custom:scripting/monoscript/fileName/ReturnNode.cs: 733bf3d41f731073a357631bb1d0eead -> 1247ca7cbd5a995438ed1230488aea5e
+  custom:scripting/monoscript/fileName/CallNode.cs: 869ce1fe5a14e807c1114cad5b38f2a0 -> 5d27574774845db441a3d96eae298403
+  custom:scripting/monoscript/fileName/NodeGraph.cs: ac7f3cca484b9e168a5c76574e7970de -> 
+  custom:scripting/monoscript/fileName/NodeEditor.cs: 414b874e159540604652096b25e7f2b5 -> 
+  custom:scripting/monoscript/fileName/RenpyMakerEditor.cs: 9953f4de49ca00f6feac4b733a462263 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/QueueMusicEditor.cs: 16547c97a5b51f3934285932990aeaab -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/SceneGraphEditor.cs: f5c26de67e7d4b2c9a493ffec0833514 -> 
+  custom:scripting/monoscript/fileName/NodeEditorReflection.cs: dca631648e95d4be6e176c4f5e3ff6d2 -> 
+  custom:scripting/monoscript/fileName/RenamePopup.cs: 52f6b69ed70a00ae2d020d17b7784ef1 -> 
+  custom:scripting/monoscript/fileName/GraphRenameFixAssetProcessor.cs: 335ea796a18dc5ce2dfb60bf27d92f3b -> 
+  custom:scripting/monoscript/fileName/NodeEnumDrawer.cs: 0d4ad54e3e5473474528b8f20de320fa -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MusicEditor.cs: 0ec73957d95bba2fa6021f64246f0619 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/BaseNode.cs: 354572641e6bffb71114520c5c025fea -> 79505d12818c353e1c22bb621da805c5
+  custom:scripting/monoscript/fileName/CommentEditor.cs: cb85e8cac5beab19816d6fd4b89790d7 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/NodeEditorAction.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/TransitionEditor.cs: f89a684986a2631e9868307be02e6f4c -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/NodeEditorGUILayout.cs: b690452cd91e6e3e39dd0f36e8a6c219 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PauseEditor.cs: f49ed5d9e34671e71070b63080c75bb8 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/DialogueEditor.cs: 48a845983a7a14b7dd493a1ef9032a79 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/CommentNode.cs: 26517d5f2a26068dddcdf0a6585d9f3f -> 15a0435593ea1482137fe98fd1adbba5
+  custom:scripting/monoscript/fileName/JumpEditor.cs: 9854eb102314a3c83fe9cb086d39dce2 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/RerouteReference.cs: e1c9f48ac92e8318ce5ae4ccb3f717f9 -> 
+  custom:scripting/monoscript/fileName/ShowNode.cs: 63c1536918863e17331a752ae96544c1 -> 620783f6c70b728699db32a70d075fef
+  custom:scripting/monoscript/fileName/StartEditor.cs: 1e0ac3a337f3c59bb9a6a761a4e5d9b4 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ShowEditor.cs: 1265f69b00d8a4322ef5440e36eae8a4 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/NarrateEditor.cs: 71eb8e07cc30372fe3f4809f1512741e -> 90647cc400823b41df847a6cbfc29026
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/NodeGraphEditor.cs: 0fadf7e0f733e1c489995016de8788e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NodeEditorResources.cs: e36c4dc4eb4dfd04d2c3f45628ad23b7 -> 
+  custom:scripting/monoscript/fileName/CharacterNode.cs: 387ba1d4f86709dd94803e3a696f2d4f -> 771fdff82db9148e366f602fa2386269
+  custom:scripting/monoscript/fileName/GraphAndNodeEditor.cs: 15a4496857716d528e16178cffff94a9 -> 
+  custom:scripting/monoscript/fileName/NodeEditorGUI.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/SceneNode.cs: df1768437ad4600095e090c2f07af042 -> 5216f2720dc9712b15ea8764cf4e9f61
+  custom:scripting/monoscript/fileName/NodeDataCache.cs: 93c866b51dacad9374825df3fb586452 -> 
+  custom:scripting/monoscript/fileName/AdvancedGenericMenu.cs: 566f58ffb2d2ff9685887f6194ac168f -> 
+  custom:scripting/monoscript/fileName/MenuEditor.cs: 87edc3ba7018cb79627a001383653532 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/JumpNode.cs: 0d32d5632a59f1bb07430b4a50a3acc9 -> 445c6d174c7d19ab36510249cec2b0ec
+  custom:scripting/monoscript/fileName/TransitionNode.cs: 1627c2a4a86fdf6a9e94c507d33ece07 -> a8219a543c134c7dc6bcd89d579277c9
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/NodeEditorBase.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/NodeEditorPreferences.cs: c3aefce0a4fb2d16e6722d56532e5180 -> 
+  custom:scripting/monoscript/fileName/ReturnEditor.cs: fb51b54a91b04b7aed23d52a3759c415 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/DialogueNode.cs: 2b00021edfa6d66c3cd388ccba7797be -> df28cab4df79a6056bb5f56d71488a30
+  custom:scripting/monoscript/fileName/PauseNode.cs: 469f813fc704011655a93671eb64f680 -> 9a88f670d036e59f8a8e267ddc6ec10d
+  custom:scripting/monoscript/fileName/NodeEnum.cs: e2db5f336cd39af8bd09f70935d9fce1 -> 
+  custom:scripting/monoscript/fileName/StopMusicEditor.cs: 29c647d6586b00236d471b2bcd7b1f46 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/MenuNode.cs: 22e5af21b92c5e60db719876a15f435f -> 2379df7e5700f66c2c7fb5fbabe65cc5
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NodeGraphImporter.cs: 86a6d5d4ca66f4daead005c91857bf40 -> 
+  custom:scripting/monoscript/fileName/HideNode.cs: 1d01672af157736519b1d06ddf9e237f -> cad7871f775ee00fde2d251403e7ea63
+  custom:scripting/monoscript/fileName/NarrateNode.cs: 138eb422cc477496d655eb1be9dbf1c7 -> 5db35739841d51e20cde7491875bb67a
+  custom:scripting/monoscript/fileName/StartNode.cs: 6bd1aed59f571ca134584f361fc6d71a -> ec5e25a01a64e49474e84279d9ffd729
+  custom:scripting/monoscript/fileName/HideEditor.cs: 6e40bd7912bb1fa491547e9b5afd7c87 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/QueueMusicNode.cs: b08f76e20f72846a871dcc8d18b2560c -> 56f096813f1b080d85b3a5f5d301392b
+  custom:scripting/monoscript/fileName/NodePort.cs: 8185fa64cfd2f7ec7334f64fc40ab2bb -> 
+  custom:scripting/monoscript/fileName/SoundEditor.cs: 6122a5a2c0d3e8dfaadd9ac329d191f2 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/SoundNode.cs: 2ec2c8af52e2165e4241f7e38058f37c -> af11dc6e5770b12adb2e71a871efed7f
+  custom:scripting/monoscript/fileName/Node.cs: fbe9c36a2c9447a63dda6fca2d3b6ba8 -> 
+  custom:scripting/monoscript/fileName/NodeEditorAssetModProcessor.cs: ef6194c16293a9e307c921cfb3427025 -> 
+  custom:scripting/monoscript/fileName/SceneEditor.cs: c8642f0b818ef8d5e937556cbcd8f805 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/CharacterEditor.cs: 4fa456b5265e656e2329ae925faff5e7 -> 90647cc400823b41df847a6cbfc29026
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/RenpyMaker.cs: 28ab233e178f5d7bafad70abe2502795 -> 0e82b617a2fadd3a7190ac246ab86765
+  custom:scripting/monoscript/fileName/StopMusicNode.cs: a05603ea23c3bc5b9aac345e4d320c6d -> 07c0b245fd08e6a29c39354e8c226baf
+========================================================================
+Received Import Request.
+  Time since last request: 832340.095688 seconds.
+  path: Assets/LDA-NewProyect/Data
+  artifactKey: Guid(34e696e96ddf06946bd41043a8a325e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LDA-NewProyect/Data using Guid(34e696e96ddf06946bd41043a8a325e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ddc4669f65990d2c55e82bbb68c0906f') in 0.053229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
