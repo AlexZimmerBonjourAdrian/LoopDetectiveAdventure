@@ -799,7 +799,11 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
+<<<<<<< HEAD
 <<<<<<<< HEAD:LoopRenpy/ProjectSettings/ProjectSettings.asset
+=======
+<<<<<<<< HEAD:LLMS-LoopDetective/ProjectSettings/ProjectSettings.asset
+>>>>>>> LLMS-SubProyect
   activeInputHandler: 2
 ========
   activeInputHandler: 0
