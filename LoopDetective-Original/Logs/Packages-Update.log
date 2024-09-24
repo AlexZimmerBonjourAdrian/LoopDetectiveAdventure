@@ -88,12 +88,17 @@ The following packages were updated:
   com.unity.timeline from version 1.4.6 to 1.7.6
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:LoopRenpy/Logs/Packages-Update.log
 === Mon Sep 23 01:20:56 2024
 =======
 <<<<<<<< HEAD:LLMS-LoopDetective/Logs/Packages-Update.log
 === Mon Sep 23 21:08:22 2024
 >>>>>>> LLMS-SubProyect
+=======
+<<<<<<<< HEAD:LDA-Redisaign/Logs/Packages-Update.log
+=== Mon Sep 23 01:35:42 2024
+>>>>>>> LDA-Redisaing
 ========
 === Mon Sep 23 21:44:34 2024
 >>>>>>>> master:LoopDetective-Original/Logs/Packages-Update.log
@@ -104,10 +109,14 @@ Update Mode: updateDependencies
 The following packages were updated:
   com.unity.2d.animation from version 9.0.4 to 9.1.1
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:LoopRenpy/Logs/Packages-Update.log
 =======
 <<<<<<<< HEAD:LLMS-LoopDetective/Logs/Packages-Update.log
 >>>>>>> LLMS-SubProyect
+=======
+<<<<<<<< HEAD:LDA-Redisaign/Logs/Packages-Update.log
+>>>>>>> LDA-Redisaing
   com.unity.2d.psdimporter from version 8.0.4 to 8.0.5
 ========
   com.unity.2d.psdimporter from version 8.0.3 to 8.0.5

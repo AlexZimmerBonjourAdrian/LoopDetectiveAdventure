@@ -9,13 +9,18 @@ EditorUserSettings:
       value: 06500653000d5c580b0f5e7511255a444e4e1b7d7f792232757c4c32b3e1643e
       flags: 0
     RecentlyUsedSceneGuid-1:
-      value: 545502075d025d5a5f085a724622594442164b7b2a717133787f1f64b0e2613e
-      flags: 0
-    RecentlyUsedSceneGuid-2:
       value: 5205565e510c5d0d5e585f70117b0944401519727b2d2468292d4435e1e46369
       flags: 0
+<<<<<<< HEAD
     RecentlyUsedSceneGuid-3:
       value: 5b090c5750060f5f0c0f5f7345755e4417151b2c7c7020352b2a1b63b3e26d3e
+=======
+    RecentlyUsedSceneGuid-2:
+      value: 5a04065e030c5a0e085b557549745b44104f19287b2b70367d781964b2b5656f
+>>>>>>> LDA-Redisaing
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 545502075d025d5a5f085a724622594442164b7b2a717133787f1f64b0e2613e
       flags: 0
     RecentlyUsedSceneGuid-4:
       value: 50545156570151095a5c5d7715700f15454f4a797f7e7e69792f1f37bbe36461
@@ -49,4 +54,5 @@ EditorUserSettings:
   m_VCHierarchyOverlayIcons: 1
   m_VCOtherOverlayIcons: 1
   m_VCAllowAsyncUpdate: 0
+  m_VCScanLocalPackagesOnConnect: 1
   m_ArtifactGarbageCollection: 1

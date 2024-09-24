@@ -15,6 +15,7 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:LoopRenpy/UserSettings/Layouts/default-2022.dwlt
     x: 1107.2001
     y: 159.2
@@ -44,12 +45,15 @@ MonoBehaviour:
 >>>>>>>> master:LoopDetective-Original/UserSettings/Layouts/default-2022.dwlt
 =======
 >>>>>>> LLMS-SubProyect
+=======
+>>>>>>> LDA-Redisaing
     x: 0
     y: 43.2
     width: 1536
     height: 780.8
   m_ShowMode: 4
   m_Title: Project
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:LoopRenpy/UserSettings/Layouts/default-2022.dwlt
   m_RootView: {fileID: 5}
@@ -111,15 +115,20 @@ MonoBehaviour:
 ========
 =======
 >>>>>>> LLMS-SubProyect
+=======
+>>>>>>> LDA-Redisaing
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>>> master:LoopDetective-Original/UserSettings/Layouts/default-2022.dwlt
 =======
 >>>>>>> LLMS-SubProyect
+=======
+>>>>>>> LDA-Redisaing
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -215,6 +224,7 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:LoopRenpy/UserSettings/Layouts/default-2022.dwlt
   controlID: 527
   draggingID: 0
@@ -223,15 +233,22 @@ MonoBehaviour:
 <<<<<<<< HEAD:LLMS-LoopDetective/UserSettings/Layouts/default-2022.dwlt
   controlID: 97
 >>>>>>> LLMS-SubProyect
+=======
+<<<<<<<< HEAD:LDA-Redisaign/UserSettings/Layouts/default-2022.dwlt
+  controlID: 100
+>>>>>>> LDA-Redisaing
 ========
   controlID: 216
 >>>>>>>> master:LoopDetective-Original/UserSettings/Layouts/default-2022.dwlt
   draggingID: 0
 --- !u!114 &6
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>>> master:LoopDetective-Original/UserSettings/Layouts/default-2022.dwlt
 =======
 >>>>>>> LLMS-SubProyect
+=======
+>>>>>>> LDA-Redisaing
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -256,6 +273,7 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:LoopRenpy/UserSettings/Layouts/default-2022.dwlt
   controlID: 448
   draggingID: 0
@@ -264,15 +282,22 @@ MonoBehaviour:
 <<<<<<<< HEAD:LLMS-LoopDetective/UserSettings/Layouts/default-2022.dwlt
   controlID: 37
 >>>>>>> LLMS-SubProyect
+=======
+<<<<<<<< HEAD:LDA-Redisaign/UserSettings/Layouts/default-2022.dwlt
+  controlID: 37
+>>>>>>> LDA-Redisaing
 ========
   controlID: 144
 >>>>>>>> master:LoopDetective-Original/UserSettings/Layouts/default-2022.dwlt
   draggingID: 0
 --- !u!114 &7
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>>> master:LoopDetective-Original/UserSettings/Layouts/default-2022.dwlt
 =======
 >>>>>>> LLMS-SubProyect
+=======
+>>>>>>> LDA-Redisaing
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -297,6 +322,7 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:LoopRenpy/UserSettings/Layouts/default-2022.dwlt
   controlID: 449
   draggingID: 0
@@ -305,15 +331,22 @@ MonoBehaviour:
 <<<<<<<< HEAD:LLMS-LoopDetective/UserSettings/Layouts/default-2022.dwlt
   controlID: 38
 >>>>>>> LLMS-SubProyect
+=======
+<<<<<<<< HEAD:LDA-Redisaign/UserSettings/Layouts/default-2022.dwlt
+  controlID: 38
+>>>>>>> LDA-Redisaing
 ========
   controlID: 145
 >>>>>>>> master:LoopDetective-Original/UserSettings/Layouts/default-2022.dwlt
   draggingID: 0
 --- !u!114 &8
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>>> master:LoopDetective-Original/UserSettings/Layouts/default-2022.dwlt
 =======
 >>>>>>> LLMS-SubProyect
+=======
+>>>>>>> LDA-Redisaing
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -332,8 +365,13 @@ MonoBehaviour:
     y: 0
     width: 290.4
     height: 432.8
+<<<<<<<< HEAD:LDA-Redisaign/UserSettings/Layouts/default-2022.dwlt
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+========
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
+>>>>>>>> master:LoopDetective-Original/UserSettings/Layouts/default-2022.dwlt
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -358,7 +396,11 @@ MonoBehaviour:
     y: 0
     width: 882.4
     height: 432.8
+<<<<<<< HEAD
 <<<<<<<< HEAD:LLMS-LoopDetective/UserSettings/Layouts/default-2022.dwlt
+=======
+<<<<<<<< HEAD:LDA-Redisaign/UserSettings/Layouts/default-2022.dwlt
+>>>>>>> LDA-Redisaing
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
@@ -423,7 +465,11 @@ MonoBehaviour:
     y: 0
     width: 363.19995
     height: 730.8
+<<<<<<< HEAD
 <<<<<<<< HEAD:LLMS-LoopDetective/UserSettings/Layouts/default-2022.dwlt
+=======
+<<<<<<<< HEAD:LDA-Redisaign/UserSettings/Layouts/default-2022.dwlt
+>>>>>>> LDA-Redisaing
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
 ========
@@ -435,6 +481,7 @@ MonoBehaviour:
   - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:LoopRenpy/UserSettings/Layouts/default-2022.dwlt
 --- !u!114 &15
@@ -1335,6 +1382,9 @@ MonoBehaviour:
 =======
 --- !u!114 &12
 >>>>>>> LLMS-SubProyect
+=======
+--- !u!114 &12
+>>>>>>> LDA-Redisaing
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1472,6 +1522,7 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 005e0000
       m_LastClickedID: 0
 <<<<<<<< HEAD:LoopRenpy/UserSettings/Layouts/default-2022.dwlt
@@ -1482,6 +1533,12 @@ MonoBehaviour:
 <<<<<<<< HEAD:LLMS-LoopDetective/UserSettings/Layouts/default-2022.dwlt
       m_ExpandedIDs: a0e5feff
 >>>>>>> LLMS-SubProyect
+=======
+      m_SelectedIDs: 50480000
+      m_LastClickedID: 0
+<<<<<<<< HEAD:LDA-Redisaign/UserSettings/Layouts/default-2022.dwlt
+      m_ExpandedIDs: c8e6feff2ae7feff2ae9feff
+>>>>>>> LDA-Redisaing
 ========
       m_ExpandedIDs: 3c0fffff
 >>>>>>>> master:LoopDetective-Original/UserSettings/Layouts/default-2022.dwlt
@@ -1865,9 +1922,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 9.279388, y: -1.7873875, z: 0.008719616}
     speed: 2
     m_Value: {x: 9.279388, y: -1.7873875, z: 0.008719616}
+=======
+    m_Target: {x: -0.6885672, y: 3.1215124, z: 0.06975577}
+    speed: 2
+    m_Value: {x: -0.6885672, y: 3.1215124, z: 0.06975577}
+>>>>>>> LDA-Redisaing
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1917,9 +1980,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 13.079322
     speed: 2
     m_Value: 13.079322
+=======
+    m_Target: 5.1373763
+    speed: 2
+    m_Value: 5.1373763
+>>>>>>> LDA-Redisaing
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1990,8 +2059,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
 <<<<<<<< HEAD:LoopRenpy/UserSettings/Layouts/default-2022.dwlt
     - Assets/RenPyEngine/Renpy/Scenes
+=======
+<<<<<<<< HEAD:LDA-Redisaign/UserSettings/Layouts/default-2022.dwlt
+    - Assets/LDA-OriginProyect/Scenes/Interiors/Apartamento
+>>>>>>> LDA-Redisaing
 ========
     - Assets
 >>>>>>>> master:LoopDetective-Original/UserSettings/Layouts/default-2022.dwlt
@@ -2002,6 +2076,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:LoopRenpy/UserSettings/Layouts/default-2022.dwlt
   - Assets/RenPyEngine/Renpy/Scenes
@@ -2020,11 +2095,23 @@ MonoBehaviour:
   - Assets/LDA-OriginProyect
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\LoopDetectiveAdventure\LLMS-LoopDetective
+=======
+<<<<<<<< HEAD:LDA-Redisaign/UserSettings/Layouts/default-2022.dwlt
+  - Assets/LDA-OriginProyect/Scenes/Interiors/Apartamento
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: E:\LoopDetectiveAdventure\LDA-Redisaign
+>>>>>>> LDA-Redisaing
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 >>>>>>> LLMS-SubProyect
+=======
+    m_SelectedIDs: 50480000
+    m_LastClickedID: 18512
+    m_ExpandedIDs: 00000000644100006c4100004c4200001046000000ca9a3b
+>>>>>>> LDA-Redisaing
 ========
   - Assets
   m_LastFoldersGridSize: 16
@@ -2038,9 +2125,13 @@ MonoBehaviour:
     m_LastClickedID: 16680
     m_ExpandedIDs: 000000002841000000ca9a3b
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>>> master:LoopDetective-Original/UserSettings/Layouts/default-2022.dwlt
 =======
 >>>>>>> LLMS-SubProyect
+=======
+>>>>>>>> master:LoopDetective-Original/UserSettings/Layouts/default-2022.dwlt
+>>>>>>> LDA-Redisaing
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2069,6 +2160,7 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:LoopRenpy/UserSettings/Layouts/default-2022.dwlt
     m_ExpandedIDs: 00000000e45d0000e65d000000ca9a3b
 ========
@@ -2077,6 +2169,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 
 >>>>>>> LLMS-SubProyect
+=======
+    m_ExpandedIDs: 
+>>>>>>> LDA-Redisaing
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
